@@ -1,0 +1,2170 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Muhammad Adnan | DPT, MSPT - Sports Physical Therapy & Rehabilitation Specialist</title>
+  <meta name="description" content="Official clinic and mobile physiotherapy platform of Dr. Muhammad Adnan (DPT, MSPT Sports Physical Therapy) in Peshawar (HMC) & Islamabad. Book appointments online, view verified certificates, and explore our specialist team." />
+  <meta name="keywords" content="Dr Muhammad Adnan, Physiotherapist Peshawar, Sports Physical Therapy Islamabad, Hayatabad Medical Complex Physio, Home Physiotherapy Peshawar, DPT MSPT Pakistan, Acupuncture Gua Sha Peshawar" />
+  <meta name="author" content="Dr. Muhammad Adnan" />
+
+  <!-- Open Graph / Google & Social Sharing Metadata -->
+  <meta property="og:title" content="Dr. Muhammad Adnan | DPT, MSPT - Sports Physical Therapy & Rehab Center" />
+  <meta property="og:description" content="Elite Sports Rehabilitation, Manual Therapy, Certified Acupuncture & Gua Sha, and Mobile Home Visits in Peshawar & Islamabad." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="1000658924.jpeg" />
+
+  <!-- Google Structured Data (Schema.org Physician & MedicalClinic for Google SEO) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Physician",
+    "name": "Dr. Muhammad Adnan",
+    "medicalSpecialty": ["Sports Physical Therapy", "Musculoskeletal Rehabilitation", "Neurological Rehabilitation", "Acupuncture"],
+    "telephone": "+92-301-9012122",
+    "email": "muhammadadnan8910@gmail.com",
+    "image": "1000658924.jpeg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Hayatabad Medical Complex (HMC)",
+      "addressLocality": "Peshawar",
+      "addressRegion": "KPK",
+      "addressCountry": "PK"
+    },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "Ibadat International University, Islamabad" },
+      { "@type": "CollegeOrUniversity", "name": "Iqra National University, Peshawar" }
+    ]
+  }
+  </script>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <style>
+    :root {
+      /* Default Primary Theme: Royal Violet Indigo */
+      --primary: #4f46e5;          /* Indigo 600 */
+      --primary-hover: #4338ca;    /* Indigo 700 */
+      --primary-dark: #1e1b4b;     /* Deep Indigo 950 */
+      --primary-light: #e0e7ff;    /* Soft Indigo 100 */
+      --accent: #f59e0b;           /* Royal Amber Gold */
+      --accent-light: #fef3c7;     /* Soft Gold 100 */
+      --surface-dark: #0f0d26;     /* Midnight Violet */
+    }
+
+    [data-theme="bengun"] {
+      --primary: #6b21a8;          /* Bengun Purple 800 */
+      --primary-hover: #7e22ce;
+      --primary-dark: #3b0764;
+      --primary-light: #f3e8ff;
+      --accent: #f59e0b;
+      --accent-light: #fef3c7;
+      --surface-dark: #1e0536;
+    }
+
+    [data-theme="plum-rose"] {
+      --primary: #86198f;          /* Plum Rose 800 */
+      --primary-hover: #a21caf;
+      --primary-dark: #4a044e;
+      --primary-light: #fae8ff;
+      --accent: #eab308;
+      --accent-light: #fef9c3;
+      --surface-dark: #270229;
+    }
+
+    [data-theme="emerald"] {
+      --primary: #059669;          /* Clinical Emerald 600 */
+      --primary-hover: #047857;
+      --primary-dark: #064e3b;
+      --primary-light: #d1fae5;
+      --accent: #d97706;
+      --accent-light: #fef3c7;
+      --surface-dark: #071f18;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      color: #1e293b;
+      background-color: #f8f9ff;
+      overflow-x: hidden;
+    }
+
+    h1, h2, h3, h4, .font-heading {
+      font-family: 'Outfit', sans-serif;
+    }
+
+    /* Theme Utility Classes */
+    .bg-primary { background-color: var(--primary); }
+    .bg-primary-hover:hover { background-color: var(--primary-hover); }
+    .bg-primary-dark { background-color: var(--primary-dark); }
+    .bg-primary-light { background-color: var(--primary-light); }
+    .text-primary { color: var(--primary); }
+    .text-primary-dark { color: var(--primary-dark); }
+    .border-primary { border-color: var(--primary); }
+
+    .bg-accent { background-color: var(--accent); }
+    .bg-accent-light { background-color: var(--accent-light); }
+    .text-accent { color: var(--accent); }
+
+    .violet-gradient {
+      background: linear-gradient(135deg, var(--surface-dark) 0%, var(--primary-dark) 52%, var(--primary) 100%);
+    }
+
+    /* Fixed Header & Smooth Navigation Link Hover Effects */
+    .glass-header {
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      transition: all 0.3s ease;
+    }
+
+    .nav-link {
+      position: relative;
+      padding: 0.45rem 0.7rem;
+      border-radius: 0.65rem;
+      white-space: nowrap;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: 2px;
+      left: 50%;
+      width: 0;
+      height: 2.5px;
+      background: linear-gradient(90deg, var(--primary), var(--accent));
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      transform: translateX(-50%);
+      border-radius: 99px;
+    }
+
+    .nav-link:hover {
+      color: var(--primary);
+      background-color: var(--primary-light);
+      transform: translateY(-1px);
+    }
+
+    .nav-link:hover::after {
+      width: 72%;
+    }
+
+    /* Card Hover Animations */
+    .card-animate {
+      transition: all 0.38s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .card-animate:hover {
+      transform: translateY(-7px);
+      box-shadow: 0 22px 42px -12px rgba(79, 70, 229, 0.22);
+      border-color: var(--primary);
+    }
+
+    /* Scroll Reveal Animation */
+    .reveal {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.65s cubic-bezier(0.16, 1, 0.3, 1), transform 0.65s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .reveal.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Subtle Floating Animation */
+    @keyframes floatSlow {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-7px); }
+    }
+    .animate-float {
+      animation: floatSlow 4s ease-in-out infinite;
+    }
+
+    input[type="range"] {
+      accent-color: var(--primary);
+    }
+
+    ::-webkit-scrollbar {
+      width: 9px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #eef2ff;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: var(--primary);
+      border-radius: 99px;
+    }
+  </style>
+</head>
+<body class="antialiased selection:bg-indigo-600 selection:text-white">
+
+  <!-- =====================================================================
+       TOP UTILITY BAR (With Violet Indigo Theme Switcher & Direct Contact)
+       ===================================================================== -->
+  <div class="bg-primary-dark text-white text-xs py-2 px-4 border-b border-white/10">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
+      <div class="flex flex-wrap items-center gap-4">
+        <span class="flex items-center gap-1.5 font-medium">
+          <i class="fa-solid fa-location-dot text-amber-400"></i>
+          <span>Hayatabad Medical Complex (HMC), Peshawar & Islamabad</span>
+        </span>
+        <span class="hidden md:flex items-center gap-1.5 text-indigo-200">
+          <i class="fa-solid fa-language text-amber-400"></i>
+          <span>English • Urdu • Pashto</span>
+        </span>
+      </div>
+
+      <div class="flex items-center gap-4 ml-auto">
+        <!-- Live Theme Switcher (Violet Indigo Default) -->
+        <div class="flex items-center gap-1.5 bg-white/10 px-2.5 py-1 rounded-full border border-white/15">
+          <span class="text-[10px] uppercase tracking-wider font-bold text-indigo-200 mr-1">Theme:</span>
+          <button onclick="setTheme('default')" title="Violet Indigo (Default)" class="w-4 h-4 rounded-full bg-indigo-600 border-2 border-white hover:scale-125 transition"></button>
+          <button onclick="setTheme('bengun')" title="Royal Bengun" class="w-4 h-4 rounded-full bg-purple-700 border border-white/70 hover:scale-125 transition"></button>
+          <button onclick="setTheme('plum-rose')" title="Deep Plum" class="w-4 h-4 rounded-full bg-fuchsia-800 border border-white/70 hover:scale-125 transition"></button>
+          <button onclick="setTheme('emerald')" title="Clinical Emerald" class="w-4 h-4 rounded-full bg-emerald-600 border border-white/70 hover:scale-125 transition"></button>
+        </div>
+
+        <a href="tel:03019012122" class="hidden sm:flex items-center gap-1.5 font-bold text-amber-300 hover:text-white transition">
+          <i class="fa-solid fa-phone-volume"></i> 0301-9012122
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       FIXED & WELL-PROPORTIONED STICKY HEADER (NO WRAPPING OR CROWDING)
+       ===================================================================== -->
+  <header class="sticky top-0 z-50 glass-header border-b border-indigo-100 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-3">
+
+      <!-- Doctor Brand Identity (Clean, Balanced & Non-Breaking) -->
+      <a href="#home" class="flex items-center gap-3 group shrink-0">
+        <div class="w-11 h-11 sm:w-12 sm:h-12 rounded-2xl bg-primary flex items-center justify-center text-white font-heading font-bold text-xl shadow-md shadow-indigo-900/20 group-hover:scale-105 transition duration-300 shrink-0">
+          <i class="fa-solid fa-user-doctor"></i>
+        </div>
+        <div class="flex flex-col justify-center">
+          <div class="flex items-center gap-1.5">
+            <span class="font-heading font-extrabold text-base sm:text-lg lg:text-xl tracking-tight text-slate-900 group-hover:text-primary transition whitespace-nowrap leading-tight">
+              Dr. Muhammad Adnan
+            </span>
+            <span class="hidden sm:inline-flex items-center px-2 py-0.5 rounded-md bg-primary-light text-primary font-bold text-[10px] uppercase tracking-wider whitespace-nowrap">
+              DPT • MSPT
+            </span>
+          </div>
+          <span class="text-[11px] font-semibold text-slate-500 tracking-wide whitespace-nowrap leading-tight mt-0.5">
+            Sports Physical Therapy &amp; Rehab Specialist
+          </span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="hidden xl:flex items-center gap-1 text-xs lg:text-sm font-semibold text-slate-700">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#our-team" class="nav-link text-primary font-bold">Our Team</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#certificates" class="nav-link">Certificates</a>
+        <a href="#gallery" class="nav-link">Clinical Gallery</a>
+        <a href="#credentials" class="nav-link">14 Global Courses</a>
+        <a href="#payment" class="nav-link">Billing</a>
+      </nav>
+
+      <!-- Right Action Buttons -->
+      <div class="hidden md:flex items-center gap-2.5 shrink-0">
+        <a href="MUHAMMAD ADNAN CV new.pdf" download class="px-3.5 py-2.5 rounded-xl border-2 border-indigo-200 text-primary hover:bg-primary hover:text-white hover:border-primary text-xs font-bold transition duration-300 flex items-center gap-1.5 whitespace-nowrap">
+          <i class="fa-solid fa-file-pdf"></i> CV
+        </a>
+        <a href="#book" class="px-4 py-2.5 rounded-xl bg-primary bg-primary-hover text-white text-xs sm:text-sm font-bold shadow-md shadow-indigo-900/20 hover:shadow-lg hover:-translate-y-0.5 transition duration-300 flex items-center gap-2 whitespace-nowrap">
+          <i class="fa-solid fa-calendar-check"></i> Book Appointment
+        </a>
+      </div>
+
+      <!-- Mobile & Tablet Menu Button -->
+      <button id="mobileMenuBtn" aria-label="Toggle Menu" class="xl:hidden p-2.5 rounded-xl bg-primary-light text-primary hover:bg-primary hover:text-white transition shrink-0">
+        <i id="mobileMenuIcon" class="fa-solid fa-bars text-xl"></i>
+      </button>
+    </div>
+
+    <!-- Mobile & Tablet Slide-Down Drawer -->
+    <div id="mobileMenu" class="hidden xl:hidden bg-white border-b border-indigo-100 px-4 pt-3 pb-6 space-y-2 shadow-xl">
+      <a href="#home" class="mobile-link block px-3.5 py-2.5 rounded-xl font-semibold text-slate-700 hover:bg-primary-light hover:text-primary transition">Home</a>
+      <a href="#our-team" class="mobile-link block px-3.5 py-2.5 rounded-xl font-bold text-primary bg-primary-light/60">Our Team &amp; Specialist Profiles</a>
+      <a href="#services" class="mobile-link block px-3.5 py-2.5 rounded-xl font-semibold text-slate-700 hover:bg-primary-light hover:text-primary transition">Clinical Specializations</a>
+      <a href="#certificates" class="mobile-link block px-3.5 py-2.5 rounded-xl font-semibold text-slate-700 hover:bg-primary-light hover:text-primary transition">Verified Certificates &amp; Degrees</a>
+      <a href="#gallery" class="mobile-link block px-3.5 py-2.5 rounded-xl font-semibold text-slate-700 hover:bg-primary-light hover:text-primary transition">Clinical Action Gallery</a>
+      <a href="#credentials" class="mobile-link block px-3.5 py-2.5 rounded-xl font-semibold text-slate-700 hover:bg-primary-light hover:text-primary transition">14 Global University Courses</a>
+      <a href="#experience" class="mobile-link block px-3.5 py-2.5 rounded-xl font-semibold text-slate-700 hover:bg-primary-light hover:text-primary transition">HMC 6-Department Experience</a>
+      <a href="#payment" class="mobile-link block px-3.5 py-2.5 rounded-xl font-semibold text-slate-700 hover:bg-primary-light hover:text-primary transition">Consultation Billing &amp; Payment</a>
+      <div class="pt-3 grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+        <a href="#book" class="mobile-link w-full py-3 rounded-xl bg-primary text-white text-center font-bold shadow-md">Book Appointment Now</a>
+        <a href="MUHAMMAD ADNAN CV new.pdf" download class="w-full py-3 rounded-xl border border-indigo-300 text-primary text-center font-bold text-sm">Download Official CV (PDF)</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- =====================================================================
+       HERO SECTION (VIOLET INDIGO ROYAL GRADIENT)
+       ===================================================================== -->
+  <section id="home" class="violet-gradient text-white relative overflow-hidden py-14 sm:py-20 lg:py-24">
+    <div class="absolute -top-24 -left-24 w-96 h-96 rounded-full bg-indigo-500/20 blur-3xl pointer-events-none"></div>
+    <div class="absolute -bottom-24 -right-24 w-96 h-96 rounded-full bg-amber-500/15 blur-3xl pointer-events-none"></div>
+    <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:24px_24px] pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="grid lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+        <!-- Left Content Column -->
+        <div class="lg:col-span-7 space-y-6">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 border border-white/20 backdrop-blur-md text-xs sm:text-sm font-semibold text-amber-300">
+            <span class="w-2.5 h-2.5 rounded-full bg-amber-400 animate-ping"></span>
+            <span>DPT • MSPT Sports Physical Therapy • Peshawar &amp; Islamabad</span>
+          </div>
+
+          <h1 class="font-heading text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.12]">
+            Elite Sports Rehab &amp; <span class="text-amber-400">Mobile Physiotherapy</span> Care.
+          </h1>
+
+          <p class="text-sm sm:text-lg text-indigo-100 max-w-2xl leading-relaxed">
+            Directed by <strong>Dr. Muhammad Adnan (DPT, MSPT-Sports)</strong> — uniting 6-department clinical expertise from <strong>Hayatabad Medical Complex (HMC), Peshawar</strong> with <strong>14 international university specialization courses</strong> from Duke, Johns Hopkins, Michigan, and CU Boulder.
+          </p>
+
+          <!-- Highlight Pills -->
+          <div class="flex flex-wrap gap-2 pt-1">
+            <span class="px-3.5 py-1.5 rounded-xl bg-white/10 hover:bg-white/20 transition text-xs font-semibold border border-white/15">
+              <i class="fa-solid fa-medal text-amber-400 mr-1.5"></i>Sports Injury &amp; Return-to-Sport
+            </span>
+            <span class="px-3.5 py-1.5 rounded-xl bg-white/10 hover:bg-white/20 transition text-xs font-semibold border border-white/15">
+              <i class="fa-solid fa-spa text-amber-400 mr-1.5"></i>Certified Acupuncture &amp; Gua Sha
+            </span>
+            <span class="px-3.5 py-1.5 rounded-xl bg-white/10 hover:bg-white/20 transition text-xs font-semibold border border-white/15">
+              <i class="fa-solid fa-brain text-amber-400 mr-1.5"></i>Neuro, Ortho &amp; ICU Rehab
+            </span>
+            <span class="px-3.5 py-1.5 rounded-xl bg-white/10 hover:bg-white/20 transition text-xs font-semibold border border-white/15">
+              <i class="fa-solid fa-house-medical text-amber-400 mr-1.5"></i>Clinic &amp; Home Visits
+            </span>
+          </div>
+
+          <!-- Primary Hero CTAs -->
+          <div class="flex flex-wrap items-center gap-4 pt-3">
+            <a href="#book" class="w-full sm:w-auto justify-center px-7 py-4 rounded-2xl bg-amber-400 hover:bg-amber-300 text-slate-950 font-heading font-extrabold text-base shadow-xl shadow-amber-500/25 hover:-translate-y-1 transition duration-300 flex items-center gap-2.5">
+              <i class="fa-solid fa-calendar-check"></i> Book Appointment Now
+            </a>
+            <a href="#certificates" class="w-full sm:w-auto justify-center px-6 py-4 rounded-2xl bg-white/10 hover:bg-white/20 border border-white/25 text-white font-heading font-bold text-base hover:-translate-y-1 transition duration-300 flex items-center gap-2">
+              <i class="fa-solid fa-award text-amber-400"></i> View Certificates
+            </a>
+          </div>
+
+          <!-- Key Clinical Metrics -->
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-6 border-t border-white/15">
+            <div class="p-3 rounded-2xl bg-white/5 border border-white/10">
+              <div class="font-heading text-2xl sm:text-3xl font-extrabold text-amber-400">1 Year</div>
+              <div class="text-xs text-indigo-200 mt-0.5">HMC Clinical Experience</div>
+            </div>
+            <div class="p-3 rounded-2xl bg-white/5 border border-white/10">
+              <div class="font-heading text-2xl sm:text-3xl font-extrabold text-amber-400">6 Wards</div>
+              <div class="text-xs text-indigo-200 mt-0.5">Hospital Departments</div>
+            </div>
+            <div class="p-3 rounded-2xl bg-white/5 border border-white/10">
+              <div class="font-heading text-2xl sm:text-3xl font-extrabold text-amber-400">14</div>
+              <div class="text-xs text-indigo-200 mt-0.5">Global Univ. Courses</div>
+            </div>
+            <div class="p-3 rounded-2xl bg-white/5 border border-white/10">
+              <div class="font-heading text-2xl sm:text-3xl font-extrabold text-amber-400">3</div>
+              <div class="text-xs text-indigo-200 mt-0.5">Languages Spoken</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Visual Column -->
+        <div class="lg:col-span-5 relative">
+          <div class="relative rounded-3xl overflow-hidden border-4 border-white/20 shadow-2xl bg-slate-900 group">
+            <img src="1000658924.jpeg" onerror="tryFallbackExt(this)" alt="Dr. Muhammad Adnan performing computerized knee biomechanics assessment" class="w-full h-[400px] sm:h-[500px] object-cover object-top group-hover:scale-105 transition duration-700" />
+            <div class="absolute inset-0 bg-gradient-to-t from-indigo-950/95 via-indigo-950/25 to-transparent"></div>
+
+            <!-- Doctor Overlay Card -->
+            <div class="absolute bottom-4 left-4 right-4 p-4 rounded-2xl bg-slate-950/85 backdrop-blur-md border border-white/15">
+              <div class="flex items-center justify-between gap-3">
+                <div>
+                  <span class="text-[11px] font-bold uppercase tracking-wider text-amber-400">Founder &amp; Lead Specialist</span>
+                  <h2 class="font-heading text-xl font-bold text-white">Dr. Muhammad Adnan</h2>
+                  <p class="text-xs text-indigo-200">DPT (INU Peshawar) • MSPT Sports PT (Ibadat Intl. Univ)</p>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=923019012122" target="_blank" class="w-11 h-11 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-white flex items-center justify-center shadow-lg transition shrink-0" title="WhatsApp Dr. Adnan">
+                  <i class="fa-brands fa-whatsapp text-2xl"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Floating Badge -->
+          <div class="hidden sm:flex items-center gap-3 absolute -top-5 -left-6 bg-white text-slate-900 p-3.5 rounded-2xl shadow-xl border border-indigo-100 animate-float">
+            <div class="w-10 h-10 rounded-xl bg-primary-light text-primary flex items-center justify-center font-bold text-lg">
+              <i class="fa-solid fa-certificate"></i>
+            </div>
+            <div>
+              <div class="text-xs font-extrabold text-slate-900">14 Global Specializations</div>
+              <div class="text-[11px] text-slate-500">Duke • Johns Hopkins • Michigan</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       OUR TEAM & COMPLETE TEAM MEMBER PROFILES (WITH CV UPLOAD)
+       ===================================================================== -->
+  <section id="our-team" class="py-20 bg-white border-b border-indigo-100 reveal">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <!-- Section Heading -->
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <span class="inline-block px-4 py-1.5 rounded-full bg-primary-light text-primary font-bold text-xs uppercase tracking-wider mb-3">
+          Clinical Leadership &amp; Expanding Team Profiles
+        </span>
+        <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-slate-900">
+          Meet Our Lead Specialist &amp; <span class="text-primary">Growing Rehab Team</span>
+        </h2>
+        <p class="text-slate-600 mt-3 text-sm sm:text-base">
+          Dr. Muhammad Adnan currently directs all clinical and home rehabilitation personally while expanding the team with qualified specialists across Peshawar and Islamabad.
+        </p>
+      </div>
+
+      <!-- LEAD DOCTOR EXECUTIVE PROFILE CARD -->
+      <div class="rounded-3xl bg-gradient-to-br from-indigo-50/80 via-white to-amber-50/40 border-2 border-indigo-200/80 shadow-xl overflow-hidden mb-16 card-animate">
+        <div class="grid lg:grid-cols-12">
+          <!-- Left Photo & Direct Credentials Column -->
+          <div class="lg:col-span-5 bg-slate-950 relative flex flex-col justify-between">
+            <div class="relative h-[380px] sm:h-[440px] lg:h-full overflow-hidden">
+              <img src="1000658936.jpeg" onerror="tryFallbackExt(this)" alt="Dr. Muhammad Adnan conducting strength rehabilitation" class="w-full h-full object-cover object-top hover:scale-105 transition duration-700" />
+              <div class="absolute top-4 left-4 flex flex-wrap gap-2">
+                <span class="px-3.5 py-1 rounded-full bg-primary text-white text-xs font-bold uppercase shadow-md">
+                  Founder &amp; Chief Specialist
+                </span>
+                <span class="px-3.5 py-1 rounded-full bg-amber-400 text-slate-950 text-xs font-bold uppercase shadow-md">
+                  Verified Profile
+                </span>
+              </div>
+            </div>
+
+            <!-- Contact & CV Bar -->
+            <div class="p-6 bg-primary-dark text-white border-t border-white/10">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+                <div>
+                  <span class="text-amber-300 font-bold uppercase block">Mobile &amp; WhatsApp</span>
+                  <a href="tel:03019012122" class="text-base font-heading font-bold hover:underline">0301-9012122</a>
+                </div>
+                <div>
+                  <span class="text-amber-300 font-bold uppercase block">Official Email</span>
+                  <a href="mailto:muhammadadnan8910@gmail.com" class="font-semibold hover:underline break-all">muhammadadnan8910@gmail.com</a>
+                </div>
+              </div>
+              <div class="mt-4 pt-4 border-t border-white/15 flex flex-wrap gap-2.5">
+                <a href="MUHAMMAD ADNAN CV new.pdf" download class="flex-1 py-2.5 px-4 rounded-xl bg-amber-400 hover:bg-amber-300 text-slate-950 font-heading font-bold text-xs text-center transition flex items-center justify-center gap-1.5">
+                  <i class="fa-solid fa-file-arrow-down"></i> Download Full CV (PDF)
+                </a>
+                <a href="#book" class="flex-1 py-2.5 px-4 rounded-xl bg-white/15 hover:bg-white/25 text-white font-heading font-bold text-xs text-center transition flex items-center justify-center gap-1.5">
+                  <i class="fa-solid fa-calendar-check"></i> Book Dr. Adnan
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Structured Profile Information Column -->
+          <div class="lg:col-span-7 p-6 sm:p-10 flex flex-col justify-between">
+            <div>
+              <div class="flex flex-wrap items-center justify-between gap-2 pb-4 border-b border-indigo-100">
+                <div>
+                  <h3 class="font-heading text-2xl sm:text-4xl font-extrabold text-slate-900">Dr. Muhammad Adnan</h3>
+                  <p class="text-primary font-bold text-sm sm:text-base mt-0.5">
+                    DPT, MSPT – Sports Physical Therapy &amp; Sports Rehabilitation Specialist
+                  </p>
+                </div>
+                <span class="px-3 py-1.5 rounded-xl bg-primary-light text-primary font-bold text-xs">
+                  <i class="fa-solid fa-user-check mr-1"></i> Active Lead Clinician
+                </span>
+              </div>
+
+              <!-- Structured Profile Specifications Grid -->
+              <div class="grid sm:grid-cols-2 gap-4 mt-6">
+                <div class="p-4 rounded-2xl bg-white border border-indigo-100 shadow-sm">
+                  <div class="text-[11px] font-bold uppercase tracking-wider text-primary">
+                    <i class="fa-solid fa-graduation-cap mr-1"></i> Highest Educational Qualification
+                  </div>
+                  <div class="font-heading font-bold text-sm text-slate-900 mt-1">
+                    MS in Physical Therapy – Sports (MSPT) <span class="text-xs font-normal text-slate-500">(2025–Present)</span>
+                  </div>
+                  <div class="text-xs text-slate-600 mt-0.5">
+                    Ibadat International University, Islamabad • Doctor of Physical Therapy (DPT), Iqra National University, Peshawar (Graduated Sept 2024)
+                  </div>
+                </div>
+
+                <div class="p-4 rounded-2xl bg-white border border-indigo-100 shadow-sm">
+                  <div class="text-[11px] font-bold uppercase tracking-wider text-primary">
+                    <i class="fa-solid fa-stethoscope mr-1"></i> Primary Specialization
+                  </div>
+                  <div class="font-heading font-bold text-sm text-slate-900 mt-1">
+                    Sports Rehabilitation, Biomechanics &amp; Multi-System PT
+                  </div>
+                  <div class="text-xs text-slate-600 mt-0.5">
+                    Return-to-Sport Science, Certified Acupuncture &amp; Gua Sha, Neurorehabilitation, Ortho Post-Op &amp; Early ICU Mobilization
+                  </div>
+                </div>
+
+                <div class="p-4 rounded-2xl bg-white border border-indigo-100 shadow-sm">
+                  <div class="text-[11px] font-bold uppercase tracking-wider text-primary">
+                    <i class="fa-solid fa-briefcase-medical mr-1"></i> Professional Experience
+                  </div>
+                  <div class="font-heading font-bold text-sm text-slate-900 mt-1">
+                    1+ Year Intensive Multi-Department Clinical Rotation
+                  </div>
+                  <div class="text-xs text-slate-600 mt-0.5">
+                    Hayatabad Medical Complex (HMC), Peshawar — 6 Months OPD (20+ patients/day) &amp; 6 Months Inpatient across 6 Specialized Wards
+                  </div>
+                </div>
+
+                <div class="p-4 rounded-2xl bg-white border border-indigo-100 shadow-sm">
+                  <div class="text-[11px] font-bold uppercase tracking-wider text-primary">
+                    <i class="fa-solid fa-map-location-dot mr-1"></i> Complete Address &amp; Clinical Base
+                  </div>
+                  <div class="font-heading font-bold text-sm text-slate-900 mt-1">
+                    Hayatabad Medical Complex (HMC), Peshawar, KPK
+                  </div>
+                  <div class="text-xs text-slate-600 mt-0.5">
+                    Academic Base: Ibadat International University, Islamabad • Serving Peshawar &amp; Islamabad (Clinic &amp; Mobile Home Visits)
+                  </div>
+                </div>
+              </div>
+
+              <!-- Other Relevant Professional Details -->
+              <div class="mt-5 p-4 rounded-2xl bg-indigo-50/70 border border-indigo-100">
+                <div class="text-xs font-bold uppercase tracking-wider text-primary mb-2">
+                  <i class="fa-solid fa-award mr-1"></i> Other Relevant Professional Details &amp; Global Credentials
+                </div>
+                <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+                  Enrolled in <strong>14 internationally accredited university specialization courses</strong> (Duke, Johns Hopkins, University of Michigan, CU Boulder, NYU, NASM, ASU, University of Cape Town, University of Toronto, Niel Asher Education, MedCert). Certified in <strong>Critical Thinking in the AI Era (2024)</strong> and <strong>Data Science &amp; Analytics (2024)</strong>. Fluent in <strong>English, Urdu, and Pashto</strong>.
+                </p>
+              </div>
+
+              <!-- Founder Vision Quote -->
+              <blockquote class="mt-5 p-4 rounded-2xl bg-primary-dark text-white">
+                <div class="text-[11px] font-bold uppercase tracking-widest text-amber-400 mb-1">
+                  <i class="fa-solid fa-quote-left mr-1"></i> Founder's Vision
+                </div>
+                <p class="text-xs sm:text-sm text-indigo-100 italic">
+                  "My goal is to build Pakistan's premier sports rehabilitation center in KPK — where elite clinical care, global academic excellence, and modern data analytics come together to transform how athletes recover, perform, and succeed."
+                </p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TEAM MEMBER DIRECTORY & ADD NEW TEAM MEMBER BAR -->
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8">
+        <div>
+          <h3 class="font-heading text-2xl font-extrabold text-slate-900">
+            Team Member Profiles &amp; Specialist Expansion Roster
+          </h3>
+          <p class="text-xs sm:text-sm text-slate-600 mt-0.5">
+            Each profile includes Full Name, Specialization, Experience, Complete Address, Highest Qualification, and CV Upload/Download.
+          </p>
+        </div>
+        <button onclick="openTeamModal()" class="px-5 py-3 rounded-2xl bg-primary bg-primary-hover text-white font-heading font-bold text-xs sm:text-sm shadow-md hover:-translate-y-0.5 transition flex items-center justify-center gap-2 shrink-0">
+          <i class="fa-solid fa-user-plus"></i> Add / Apply as Team Member (With CV Upload)
+        </button>
+      </div>
+
+      <!-- Dynamic Team Cards Grid -->
+      <div id="teamGrid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
+        <!-- Populated dynamically via JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       CLINICAL SPECIALIZATIONS & SERVICES SECTION
+       ===================================================================== -->
+  <section id="services" class="py-20 bg-indigo-50/50 reveal">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <span class="inline-block px-4 py-1.5 rounded-full bg-primary-light text-primary font-bold text-xs uppercase tracking-wider mb-3">
+          16+ Clinical Competencies
+        </span>
+        <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-slate-900">
+          Specialized Physiotherapy &amp; <span class="text-primary">Rehabilitation Services</span>
+        </h2>
+        <p class="text-slate-600 mt-3 text-sm sm:text-base">
+          Evidence-based clinical protocols combining manual therapy, biomechanics, electrotherapy, and neuroplasticity principles.
+        </p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-7">
+        <div class="bg-white rounded-3xl p-7 border border-indigo-100 shadow-sm card-animate">
+          <div class="w-12 h-12 rounded-2xl bg-primary-light text-primary flex items-center justify-center text-xl mb-5">
+            <i class="fa-solid fa-person-running"></i>
+          </div>
+          <h3 class="font-heading text-xl font-bold text-slate-900">Sports Injury &amp; Return-to-Sport</h3>
+          <p class="text-sm text-slate-600 mt-2 leading-relaxed">
+            Ligament sprains, ACL rehab, muscle strains, tendinopathies, biomechanics gait analysis, sports taping/bracing, and athletic performance optimization.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-3xl p-7 border border-indigo-100 shadow-sm card-animate">
+          <div class="w-12 h-12 rounded-2xl bg-primary-light text-primary flex items-center justify-center text-xl mb-5">
+            <i class="fa-solid fa-hands-holding-circle"></i>
+          </div>
+          <h3 class="font-heading text-xl font-bold text-slate-900">Manual Therapy &amp; Electrotherapy</h3>
+          <p class="text-sm text-slate-600 mt-2 leading-relaxed">
+            Joint mobilization, differential diagnosis, individualized exercise prescription, TENS, therapeutic ultrasound, IFT, and short-wave diathermy (SWD).
+          </p>
+        </div>
+
+        <div class="bg-white rounded-3xl p-7 border border-indigo-100 shadow-sm card-animate">
+          <div class="w-12 h-12 rounded-2xl bg-amber-100 text-amber-600 flex items-center justify-center text-xl mb-5">
+            <i class="fa-solid fa-spa"></i>
+          </div>
+          <h3 class="font-heading text-xl font-bold text-slate-900">Acupuncture &amp; Gua Sha Therapy</h3>
+          <p class="text-sm text-slate-600 mt-2 leading-relaxed">
+            Niel Asher internationally certified clinical acupuncture and instrument-assisted Gua Sha therapy for myofascial release, pain relief, and tissue recovery.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-3xl p-7 border border-indigo-100 shadow-sm card-animate">
+          <div class="w-12 h-12 rounded-2xl bg-primary-light text-primary flex items-center justify-center text-xl mb-5">
+            <i class="fa-solid fa-bone"></i>
+          </div>
+          <h3 class="font-heading text-xl font-bold text-slate-900">Post-Surgical Orthopedic Rehab</h3>
+          <p class="text-sm text-slate-600 mt-2 leading-relaxed">
+            Total Knee Replacement (TKR), Total Hip Replacement (THR), ACL reconstruction, spinal fixation, laminectomy, and peripheral nerve injury rehabilitation.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-3xl p-7 border border-indigo-100 shadow-sm card-animate">
+          <div class="w-12 h-12 rounded-2xl bg-primary-light text-primary flex items-center justify-center text-xl mb-5">
+            <i class="fa-solid fa-brain"></i>
+          </div>
+          <h3 class="font-heading text-xl font-bold text-slate-900">Neuro &amp; Pediatric Rehabilitation</h3>
+          <p class="text-sm text-slate-600 mt-2 leading-relaxed">
+            Stroke, TBI, and spinal cord injury recovery using Bobath Concept, PNF, gait re-education, and NDT play-based therapy for pediatric cerebral palsy.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-3xl p-7 border border-indigo-100 shadow-sm card-animate">
+          <div class="w-12 h-12 rounded-2xl bg-primary-light text-primary flex items-center justify-center text-xl mb-5">
+            <i class="fa-solid fa-heart-pulse"></i>
+          </div>
+          <h3 class="font-heading text-xl font-bold text-slate-900">Cardiopulmonary, ICU &amp; Home PT</h3>
+          <p class="text-sm text-slate-600 mt-2 leading-relaxed">
+            Phase I &amp; II cardiac rehab, COPD/pneumonia chest physiotherapy, early MICU mobilization, EMT first response, and doorstep home visits.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       NEW SECTION: VERIFIED DEGREES & INTERNATIONAL CERTIFICATES SHOWCASE
+       (Ready for uploading and displaying all Certificate Pictures!)
+       ===================================================================== -->
+  <section id="certificates" class="py-20 bg-white border-t border-indigo-100 reveal">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+        <div>
+          <span class="inline-block px-4 py-1.5 rounded-full bg-primary-light text-primary font-bold text-xs uppercase tracking-wider mb-3">
+            Official Academic &amp; Clinical Credentials
+          </span>
+          <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-slate-900">
+            Verified Degrees &amp; <span class="text-primary">Certificates Gallery</span>
+          </h2>
+          <p class="text-sm text-slate-600 mt-2 max-w-2xl">
+            Accredited qualifications and international specialization certificates earned by Dr. Muhammad Adnan across leading global universities and institutions.
+          </p>
+        </div>
+        <button onclick="openCertModal()" class="px-5 py-3 rounded-2xl bg-primary bg-primary-hover text-white font-heading font-bold text-xs sm:text-sm shadow-md hover:-translate-y-0.5 transition flex items-center justify-center gap-2 shrink-0">
+          <i class="fa-solid fa-cloud-arrow-up"></i> Add / Upload Certificate Picture
+        </button>
+      </div>
+
+      <!-- Dynamic Certificates Grid -->
+      <div id="certificatesGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-7">
+        <!-- Populated via JavaScript below -->
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       REAL CLINICAL ACTION GALLERY (6 UPLOADED PHOTOS + ADD MORE PHOTOS)
+       ===================================================================== -->
+  <section id="gallery" class="py-20 bg-indigo-50/40 border-y border-indigo-100 reveal">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+        <div>
+          <span class="inline-block px-4 py-1.5 rounded-full bg-primary-light text-primary font-bold text-xs uppercase tracking-wider mb-3">
+            Verified Clinical Portfolio
+          </span>
+          <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-slate-900">
+            Dr. Muhammad Adnan <span class="text-primary">In Clinical Practice</span>
+          </h2>
+          <p class="text-sm text-slate-600 mt-2 max-w-xl">
+            Click on any photograph to view full screen, or use the button on the right to add more clinical pictures anytime.
+          </p>
+        </div>
+        <button onclick="openPhotoModal()" class="px-5 py-3 rounded-2xl border-2 border-primary text-primary hover:bg-primary hover:text-white font-heading font-bold text-xs sm:text-sm transition flex items-center justify-center gap-2 shrink-0">
+          <i class="fa-solid fa-images"></i> Add More Clinical Pictures
+        </button>
+      </div>
+
+      <div id="galleryGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Populated dynamically from the `galleryPhotos` array (supports both .jpeg and .jpg automatically) -->
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       14 INTERNATIONAL UNIVERSITY SPECIALIZATION COURSES SECTION
+       ===================================================================== -->
+  <section id="credentials" class="py-20 violet-gradient text-white reveal">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-10">
+        <span class="inline-block px-4 py-1.5 rounded-full bg-white/10 text-amber-300 border border-white/20 font-bold text-xs uppercase tracking-wider mb-3">
+          Internationally Accredited Specializations (2024–2025)
+        </span>
+        <h2 class="font-heading text-3xl sm:text-4xl font-extrabold">
+          14 Global University Courses &amp; <span class="text-amber-400">Clinical Certifications</span>
+        </h2>
+        <p class="text-indigo-100 mt-3 text-sm sm:text-base">
+          Advanced coursework completed across world-renowned universities in the United States, Canada, South Africa, and internationally.
+        </p>
+      </div>
+
+      <!-- Filter Pills -->
+      <div class="flex flex-wrap justify-center gap-2 mb-10">
+        <button onclick="filterCourses('all')" class="course-filter-btn px-4 py-2 rounded-xl bg-amber-400 text-slate-950 font-bold text-xs transition" data-filter="all">All 14 Courses</button>
+        <button onclick="filterCourses('neuro-msk')" class="course-filter-btn px-4 py-2 rounded-xl bg-white/10 hover:bg-white/20 text-white font-semibold text-xs transition" data-filter="neuro-msk">Neuroscience &amp; MSK</button>
+        <button onclick="filterCourses('sports-rehab')" class="course-filter-btn px-4 py-2 rounded-xl bg-white/10 hover:bg-white/20 text-white font-semibold text-xs transition" data-filter="sports-rehab">Exercise, Yoga &amp; Acupuncture</button>
+        <button onclick="filterCourses('research-emt')" class="course-filter-btn px-4 py-2 rounded-xl bg-white/10 hover:bg-white/20 text-white font-semibold text-xs transition" data-filter="research-emt">Research, EMT &amp; Health</button>
+      </div>
+
+      <div id="coursesGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <!-- Populated via JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       HMC 6-DEPARTMENT CLINICAL EXPERIENCE SECTION
+       ===================================================================== -->
+  <section id="experience" class="py-20 bg-white border-b border-indigo-100 reveal">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <span class="inline-block px-4 py-1.5 rounded-full bg-primary-light text-primary font-bold text-xs uppercase tracking-wider mb-3">
+          Hayatabad Medical Complex (HMC), Peshawar
+        </span>
+        <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-slate-900">
+          OPD &amp; 6-Department Hospital Rotation <span class="text-primary">(2025–2026)</span>
+        </h2>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="p-6 rounded-3xl bg-indigo-50/60 border border-indigo-100 card-animate">
+          <span class="text-xs font-bold text-primary uppercase">Ward Rotation 01</span>
+          <h3 class="font-heading text-lg font-bold text-slate-900 mt-1">Orthopedics &amp; Neurosurgery</h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">Post-operative TKR, THR, spinal fixation, and laminectomy protocols; sensory re-education and mobility training for peripheral nerve injuries.</p>
+        </div>
+        <div class="p-6 rounded-3xl bg-indigo-50/60 border border-indigo-100 card-animate">
+          <span class="text-xs font-bold text-primary uppercase">Ward Rotation 02</span>
+          <h3 class="font-heading text-lg font-bold text-slate-900 mt-1">Neurology Ward</h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">Stroke, TBI, and spinal cord injury rehabilitation using Bobath Concept, PNF, gait re-education, and Duke Medical Neuroscience neuroplasticity principles.</p>
+        </div>
+        <div class="p-6 rounded-3xl bg-indigo-50/60 border border-indigo-100 card-animate">
+          <span class="text-xs font-bold text-primary uppercase">Ward Rotation 03</span>
+          <h3 class="font-heading text-lg font-bold text-slate-900 mt-1">Cardiology Ward</h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">Phase I &amp; II cardiac rehabilitation post-MI, CABG, and open-heart surgery with continuous vital signs monitoring (HR, BP, SpO2, RR).</p>
+        </div>
+        <div class="p-6 rounded-3xl bg-indigo-50/60 border border-indigo-100 card-animate">
+          <span class="text-xs font-bold text-primary uppercase">Ward Rotation 04</span>
+          <h3 class="font-heading text-lg font-bold text-slate-900 mt-1">Pulmonology Ward</h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">Chest physiotherapy (percussion, vibration, postural drainage, active cycle of breathing) for COPD, pneumonia, and ventilator weaning.</p>
+        </div>
+        <div class="p-6 rounded-3xl bg-indigo-50/60 border border-indigo-100 card-animate">
+          <span class="text-xs font-bold text-primary uppercase">Ward Rotation 05</span>
+          <h3 class="font-heading text-lg font-bold text-slate-900 mt-1">Pediatrics Ward</h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">Play-based NDT interventions for cerebral palsy, developmental delay, congenital musculoskeletal conditions, and pediatric chest physiotherapy.</p>
+        </div>
+        <div class="p-6 rounded-3xl bg-indigo-50/60 border border-indigo-100 card-animate">
+          <span class="text-xs font-bold text-primary uppercase">Ward Rotation 06</span>
+          <h3 class="font-heading text-lg font-bold text-slate-900 mt-1">Medical Intensive Care (MICU)</h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">Early ICU mobilization under hemodynamic monitoring to prevent ICU-acquired weakness, backed by CU Boulder EMT emergency response skills.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       CONSULTATION FEE & PAYMENT DETAILS (JAZZCASH & EASYPAISA REMOVED)
+       ===================================================================== -->
+  <section id="payment" class="py-20 bg-indigo-50/60 border-b border-indigo-100 reveal">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <span class="inline-block px-4 py-1.5 rounded-full bg-primary-light text-primary font-bold text-xs uppercase tracking-wider mb-3">
+          Transparent Clinical Billing
+        </span>
+        <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-slate-900">
+          Consultation Fee &amp; <span class="text-primary">Payment Options</span>
+        </h2>
+        <p class="text-slate-600 mt-3 text-sm sm:text-base">
+          Flexible and straightforward payment arrangements for in-clinic sessions, mobile home visits, and long-term sports rehabilitation packages.
+        </p>
+      </div>
+
+      <!-- 3 Clean Professional Payment Cards -->
+      <div class="grid md:grid-cols-3 gap-7">
+        <!-- Option 1: Direct Bank / RAAST Transfer -->
+        <div class="bg-white rounded-3xl p-7 border-2 border-indigo-100 shadow-sm card-animate flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="px-3.5 py-1 rounded-full bg-primary-light text-primary font-bold text-xs">Online Bank Transfer</span>
+              <i class="fa-solid fa-building-columns text-2xl text-primary"></i>
+            </div>
+            <h3 class="font-heading text-xl font-extrabold text-slate-900">Direct Bank / RAAST Transfer</h3>
+            <p class="text-xs text-slate-500 mt-1">Instant inter-bank transfer for clinic, online, or home visit bookings.</p>
+            <div class="mt-4 space-y-2 text-xs text-slate-600 bg-slate-50 p-4 rounded-2xl border border-slate-200/80">
+              <div><span class="font-bold text-slate-900">Account Title:</span> Dr. Muhammad Adnan</div>
+              <div><span class="font-bold text-slate-900">RAAST ID / Contact:</span> 0301-9012122</div>
+              <div><span class="font-bold text-slate-900">Bank Account / IBAN:</span> <span class="text-slate-500">Shared upon appointment confirmation</span></div>
+            </div>
+          </div>
+          <button onclick="copyPaymentInfo('03019012122', 'RAAST ID')" class="mt-6 w-full py-3 rounded-xl bg-primary-light hover:bg-primary text-primary hover:text-white font-bold text-xs transition flex items-center justify-center gap-1.5">
+            <i class="fa-regular fa-copy"></i> Copy RAAST ID (0301-9012122)
+          </button>
+        </div>
+
+        <!-- Option 2: In-Clinic Cash / Reception Billing -->
+        <div class="bg-white rounded-3xl p-7 border-2 border-indigo-100 shadow-sm card-animate flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="px-3.5 py-1 rounded-full bg-amber-100 text-amber-800 font-bold text-xs">In-Clinic Visit</span>
+              <i class="fa-solid fa-hospital-user text-2xl text-amber-600"></i>
+            </div>
+            <h3 class="font-heading text-xl font-extrabold text-slate-900">In-Clinic Consultation Payment</h3>
+            <p class="text-xs text-slate-500 mt-1">Pay directly at the clinic reception desk at the time of your assessment.</p>
+            <div class="mt-4 space-y-2 text-xs text-slate-600 bg-slate-50 p-4 rounded-2xl border border-slate-200/80">
+              <div><span class="font-bold text-slate-900">OPD Assessment:</span> Pay on arrival</div>
+              <div><span class="font-bold text-slate-900">Modalities Included:</span> Manual PT &amp; Electrotherapy</div>
+              <div><span class="font-bold text-slate-900">Receipt:</span> Official clinical invoice provided</div>
+            </div>
+          </div>
+          <a href="#book" class="mt-6 w-full py-3 rounded-xl bg-primary text-white font-bold text-xs text-center transition hover:opacity-95 block">
+            Select In-Clinic Payment
+          </a>
+        </div>
+
+        <!-- Option 3: Home Visit & Rehab Packages -->
+        <div class="bg-white rounded-3xl p-7 border-2 border-indigo-100 shadow-sm card-animate flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="px-3.5 py-1 rounded-full bg-emerald-100 text-emerald-800 font-bold text-xs">Home Care &amp; Plans</span>
+              <i class="fa-solid fa-house-medical-circle-check text-2xl text-emerald-600"></i>
+            </div>
+            <h3 class="font-heading text-xl font-extrabold text-slate-900">Cash on Home Visit / Rehab Plans</h3>
+            <p class="text-xs text-slate-500 mt-1">Convenient payment after your home session or customized weekly/monthly plans.</p>
+            <div class="mt-4 space-y-2 text-xs text-slate-600 bg-slate-50 p-4 rounded-2xl border border-slate-200/80">
+              <div><span class="font-bold text-slate-900">Single Home Visit:</span> Pay upon session completion</div>
+              <div><span class="font-bold text-slate-900">Weekly Rehab Plan:</span> 6-Session Package</div>
+              <div><span class="font-bold text-slate-900">Post-Op / Stroke Plan:</span> Monthly Home Care</div>
+            </div>
+          </div>
+          <a href="#book" class="mt-6 w-full py-3 rounded-xl bg-primary text-white font-bold text-xs text-center transition hover:opacity-95 block">
+            Book Home Visit Package
+          </a>
+        </div>
+      </div>
+
+      <!-- Copy Notification Toast -->
+      <div id="copyToast" class="hidden mt-4 text-center">
+        <span class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-900 text-amber-300 text-xs font-bold shadow-lg">
+          <i class="fa-solid fa-circle-check"></i> <span id="copyToastText">Copied to clipboard!</span>
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       COMPLETE APPOINTMENT BOOKING & CLINICAL INTAKE SYSTEM
+       (100% Full Details Guaranteed in WhatsApp via URL-Safe Encoding)
+       ===================================================================== -->
+  <section id="book" class="py-20 bg-white reveal">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="inline-block px-4 py-1.5 rounded-full bg-primary-light text-primary font-bold text-xs uppercase tracking-wider mb-3">
+          Complete Patient &amp; Clinical Intake Portal
+        </span>
+        <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-slate-900">
+          Book Your <span class="text-primary">Physiotherapy Appointment</span>
+        </h2>
+        <p class="text-slate-600 mt-2 text-sm sm:text-base">
+          Fill out all patient, date/time, injury, and medical fields below. Every detail you enter is formatted and sent in full directly to Dr. Muhammad Adnan's WhatsApp.
+        </p>
+      </div>
+
+      <div class="rounded-3xl bg-slate-950 text-white overflow-hidden shadow-2xl border-2 border-indigo-900/40">
+        <div class="grid lg:grid-cols-12">
+
+          <!-- Left Column: Clinic Info & Working Hours -->
+          <div class="lg:col-span-4 p-7 sm:p-10 violet-gradient flex flex-col justify-between">
+            <div>
+              <span class="px-3.5 py-1 rounded-full bg-white/15 text-amber-300 text-xs font-bold uppercase tracking-wider">
+                Direct Clinical Desk
+              </span>
+              <h3 class="font-heading text-2xl sm:text-3xl font-extrabold mt-4">
+                Dr. Muhammad Adnan
+              </h3>
+              <p class="text-indigo-200 text-xs sm:text-sm mt-1">
+                DPT • MSPT (Sports Physical Therapy)
+              </p>
+
+              <div class="space-y-5 mt-8 text-sm">
+                <div class="flex items-start gap-3.5">
+                  <div class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center text-amber-400 shrink-0">
+                    <i class="fa-solid fa-phone-volume"></i>
+                  </div>
+                  <div>
+                    <div class="text-xs text-indigo-200">Mobile &amp; WhatsApp Hotline</div>
+                    <a href="tel:03019012122" class="font-heading text-lg font-bold hover:text-amber-300 transition">0301-9012122</a>
+                  </div>
+                </div>
+
+                <div class="flex items-start gap-3.5">
+                  <div class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center text-amber-400 shrink-0">
+                    <i class="fa-solid fa-envelope"></i>
+                  </div>
+                  <div>
+                    <div class="text-xs text-indigo-200">Official Email</div>
+                    <a href="mailto:muhammadadnan8910@gmail.com" class="font-heading text-sm font-bold hover:text-amber-300 transition break-all">muhammadadnan8910@gmail.com</a>
+                  </div>
+                </div>
+
+                <div class="flex items-start gap-3.5">
+                  <div class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center text-amber-400 shrink-0">
+                    <i class="fa-solid fa-hospital"></i>
+                  </div>
+                  <div>
+                    <div class="text-xs text-indigo-200">Service Locations</div>
+                    <div class="font-heading font-bold">Hayatabad Medical Complex (HMC), Peshawar</div>
+                    <div class="text-xs text-indigo-200 mt-0.5">Ibadat International University, Islamabad • Home Visits Available</div>
+                  </div>
+                </div>
+
+                <div class="flex items-start gap-3.5">
+                  <div class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center text-amber-400 shrink-0">
+                    <i class="fa-solid fa-clock"></i>
+                  </div>
+                  <div>
+                    <div class="text-xs text-indigo-200">Consultation Hours</div>
+                    <div class="font-heading font-bold text-sm">Mon – Sat: 9:00 AM – 9:00 PM</div>
+                    <div class="text-xs text-indigo-200 mt-0.5">Sunday: Prior Appointment / Emergency Sports Care</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-8 pt-6 border-t border-white/15">
+              <div class="text-xs font-bold uppercase text-amber-300 mb-2">100% Complete WhatsApp Intake</div>
+              <p class="text-xs text-indigo-100 leading-relaxed">
+                All 18+ clinical fields—including patient contact, full home address, date/day/AM-PM time, pain scale, and medical history—are transmitted in full to Dr. Adnan's WhatsApp.
+              </p>
+            </div>
+          </div>
+
+          <!-- Right Column: Comprehensive Multi-Section Appointment Form -->
+          <div class="lg:col-span-8 p-6 sm:p-10 bg-slate-900">
+            <form id="bookingForm" onsubmit="submitCompleteBooking(event)" class="space-y-7">
+
+              <!-- PART 1: PATIENT & CONTACT DETAILS -->
+              <div>
+                <div class="flex items-center gap-2 pb-2.5 mb-4 border-b border-slate-800">
+                  <span class="w-6 h-6 rounded-full bg-amber-400 text-slate-950 font-bold text-xs flex items-center justify-center">1</span>
+                  <h4 class="font-heading text-lg font-bold text-white">Patient Personal &amp; Contact Details</h4>
+                </div>
+
+                <div class="grid sm:grid-cols-3 gap-4">
+                  <div class="sm:col-span-2">
+                    <label class="block text-xs font-semibold text-indigo-200 mb-1.5">Patient's Full Name *</label>
+                    <input type="text" id="ptName" required placeholder="Enter patient's full name" class="w-full px-4 py-3 rounded-xl bg-slate-800/90 border border-slate-700 text-white text-sm focus:outline-none focus:border-amber-400" />
+                  </div>
+                  <div class="grid grid-cols-2 gap-2">
+                    <div>
+                      <label class="block text-xs font-semibold text-indigo-200 mb-1.5">Age *</label>
+                      <input type="number" id="ptAge" required min="1" max="120" placeholder="Yrs" class="w-full px-3 py-3 rounded-xl bg-slate-800/90 border border-slate-700 text-white text-sm focus:outline-none focus:border-amber-400" />
+                    </div>
+                    <div>
+                      <label class="block text-xs font-semibold text-indigo-200 mb-1.5">Gender *</label>
+                      <select id="ptGender" class="w-full px-2.5 py-3 rounded-xl bg-slate-800/90 border border-slate-700 text-white text-sm focus:outline-none focus:border-amber-400">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Child">Child</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="grid sm:grid-cols-2 gap-4 mt-4">
+                  <div>
+                    <label class="block text-xs font-semibold text-indigo-200 mb-1.5">Mobile Number *</label>
+                    <input type="tel" id="ptMobile" required placeholder="e.g., 0301-1234567" oninput="syncWhatsAppIfChecked()" class="w-full px-4 py-3 rounded-xl bg-slate-800/90 border border-slate-700 text-white text-sm focus:outline-none focus:border-amber-400" />
+                  </div>
+                  <div>
+                    <div class="flex items-center justify-between mb-1.5">
+                      <label class="text-xs font-semibold text-indigo-200">WhatsApp Number *</label>
+                      <label class="flex items-center gap-1 text-[11px] text-amber-300 cursor-pointer">
+                        <input type="checkbox" id="sameAsMobile" onchange="toggleSameAsMobile()" class="rounded accent-amber-400" />
+                        <span>Same as Mobile</span>
+                      </label>
+                    </div>
+                    <input type="tel" id="ptWhatsapp" required placeholder="e.g., 0301-1234567" class="w-full px-4 py-3 rounded-xl bg-slate-800/90 border border-slate-700 text-white text-sm focus:outline-none focus:border-amber-400" />
+                  </div>
+                </div>
+
+                <div class="grid sm:grid-cols-3 gap-4 mt-4">
+                  <div>
+                    <label class="block text-xs font-semibold text-indigo-200 mb-1.5">City / Region *</label>
+                    <select id="ptCity" class="w-full px-3.5 py-3 rounded-xl bg-slate-800/90 border border-slate-700 text-white text-sm focus:outline-none focus:border-amber-400">
+                      <option value="Peshawar (Hayatabad / City)">Peshawar (Hayatabad / City)</option>
+                      <option value="Islamabad / Rawalpindi">Islamabad / Rawalpindi</option>
+                      <option value="Other KPK District">Other KPK District</option>
+                      <option value="Online Video Session">Online Video Consultation</option>
+                    </select>
+                  </div>
+                  <div class="sm:col-span-2">
+                    <label class="block text-xs font-semibold text-indigo-200 mb-1.5">Complete Location &amp; Street/House Address *</label>
+                    <input type="text" id="ptAddress" required placeholder="House No, Street, Phase/Sector, Nearest Landmark" class="w-full px-4 py-3 rounded-xl bg-slate-800/90 border border-slate-700 text-white text-sm focus:outline-none focus:border-amber-400" />
+                  </div>
+                </div>
+              </div>
+
+              <!-- PART 2: DATE, DAY & TIME (WITH AM/PM) SCHEDULING -->
+              <div>
+                <div class="flex items-center gap-2 pb-2.5 mb-4 border-b border-slate-800">
+                  <span class="w-6 h-6 rounded-full bg-amber-400 text-slate-950 font-bold text-xs flex items-center justify-center">2</span>
+                  <h4 class="font-heading text-lg font-bold text-white">Appointment Date, Day &amp; Time (AM/PM)</h4>
+                </div>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                  <!-- Calendar Date Picker -->
+                  <div>
+                    <label class="block text-xs font-semibold text-indigo-200 mb-1.5">Select Date (Calendar) *</label>
+                    <input type="date" id="ptDate" required onchange="syncDayFromDate()" class="w-full px-3.5 py-3 rounded-xl bg-slate-800/90 border border-slate-700 text-white text-sm focus:outline-none focus:border-amber-400" />
+                  </div>
+
+                  <!-- Day Selection -->
+                  <div>
+                    <label class="block text-xs font-semibold text-indigo-200 mb-1.5">Preferred Day *</label>
+                    <select id="ptDay" class="w-full px-3.5 py-3 rounded-xl bg-slate-800/90 border border-slate-700 text-white text-sm focus:outline-none focus:border-amber-400">
+                      <option value="Monday">Monday</option>
+                      <option value="Tuesday">Tuesday</option>
+                      <option value="Wednesday">Wednesday</option>
+                      <option value="Thursday">Thursday</option>
+                      <option value="Friday">Friday</option>
+                      <option value="Saturday">Saturday</option>
+                      <option value="Sunday">Sunday</option>
+                    </select>
+                  </div>
+
+                  <!-- Time Selection (Hour : Minute) -->
+                  <div>
+                    <label class="block text-xs font-semibold text-indigo-200 mb-1.5">Appointment Time *</label>
+                    <div class="grid grid-cols-2 gap-1.5">
+                      <select id="ptHour" class="px-2.5 py-3 rounded-xl bg-slate-800/90 border border-slate-700 text-white text-sm focus:outline-none focus:border-amber-400">
+                        <option value="09">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04" selected>04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                        <option value="07">07</option>
+                        <option value="08">08</option>
+                      </select>
+                      <select id="ptMinute" class="px-2.5 py-3 rounded-xl bg-slate-800/90 border border-slate-700 text-white text-sm focus:outline-none focus:border-amber-400">
+                        <option value="00">:00</option>
+                        <option value="15">:15</option>
+                        <option value="30">:30</option>
+                        <option value="45">:45</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <!-- Explicit AM / PM Selector -->
+                  <div>
+                    <label class="block text-xs font-semibold text-indigo-200 mb-1.5">AM / PM Selection *</label>
+                    <div class="grid grid-cols-2 gap-2 bg-slate-800 p-1 rounded-xl border border-slate-700">
+                      <button type="button" id="btnAM" onclick="setAmPm('AM')" class="py-2 rounded-lg text-xs font-bold text-slate-300 hover:text-white transition">
+                        AM
+                      </button>
+                      <button type="button" id="btnPM" onclick="setAmPm('PM')" class="py-2 rounded-lg text-xs font-bold bg-amber-400 text-slate-950 shadow transition">
+                        PM
+                      </button>
+                    </div>
+                    <input type="hidden" id="ptAmPm" value="PM" />
+                  </div>
+                </div>
+              </div>
+
+              <!-- PART 3: INJURIES, PAIN, CLINICAL & SPORTS / ATTENDANT DETAILS -->
+              <div>
+                <div class="flex items-center gap-2 pb-2.5 mb-4 border-b border-slate-800">
+                  <span class="w-6 h-6 rounded-full bg-amber-400 text-slate-950 font-bold text-xs flex items-center justify-center">3</span>
+                  <h4 class="font-heading text-lg font-bold text-white">Injury, Pain, Sports Match &amp; Medical History Details</h4>
+                </div>
+
+                <div class="grid sm:grid-cols-3 gap-4">
+                  <div>
+                    <label class="block text-xs font-semibold text-indigo-200 mb-1.5">Session Type *</label>
+                    <select id="ptSessionType" class="w-full px-3.5 py-3 rounded-xl bg-slate-800/90 border border-slate-700 text-white text-sm focus:outline-none focus:border-amber-400">
+                      <option value="Mobile Home Visit Physiotherapy">Mobile Home Visit Physiotherapy</option>
+                      <option value="In-Clinic Consultation">In-Clinic Consultation</option>
+                      <option value="Sports Injury and Return-to-Sport">Sports Injury &amp; Return-to-Sport</option>
+                      <option value="Acupuncture and Gua Sha Therapy">Acupuncture &amp; Gua Sha Therapy</option>
+                      <option value="Post-Surgical Orthopedic Rehab">Post-Surgical Orthopedic Rehab</option>
+                      <option value="Neurological / Stroke Rehab">Neurological / Stroke Rehab</option>
+                    </select>
+                  </div>
+
+                  <div>
+                    <label class="block text-xs font-semibold text-indigo-200 mb-1.5">Primary Affected Body Area *</label>
+                    <select id="ptBodyArea" class="w-full px-3.5 py-3 rounded-xl bg-slate-800/90 border border-slate-700 text-white text-sm focus:outline-none focus:border-amber-400">
+                      <option value="Knee Joint (ACL / Meniscus / OA / TKR)">Knee Joint (ACL / Meniscus / OA / TKR)</option>
+                      <option value="Shoulder (Rotator Cuff / Frozen Shoulder)">Shoulder (Rotator Cuff / Frozen Shoulder)</option>
+                      <option value="Lower Back / Lumbar Spine / Sciatica">Lower Back / Lumbar Spine / Sciatica</option>
+                      <option value="Neck / Cervical Spine">Neck / Cervical Spine</option>
+                      <option value="Ankle / Foot / Sports Sprain">Ankle / Foot / Sports Sprain</option>
+                      <option value="Hip Joint / Post-THR">Hip Joint / Post-THR</option>
+                      <option value="Elbow / Wrist / Hand">Elbow / Wrist / Hand</option>
+                      <option value="Stroke / Hemiplegia / Neurological">Stroke / Hemiplegia / Neurological</option>
+                      <option value="Cardiopulmonary / Chest PT">Cardiopulmonary / Chest PT</option>
+                    </select>
+                  </div>
+
+                  <div>
+                    <label class="block text-xs font-semibold text-indigo-200 mb-1.5">Affected Side &amp; Onset *</label>
+                    <select id="ptSideOnset" class="w-full px-3.5 py-3 rounded-xl bg-slate-800/90 border border-slate-700 text-white text-sm focus:outline-none focus:border-amber-400">
+                      <option value="Right Side - Acute (Under 2 Weeks)">Right Side – Acute (Under 2 Weeks)</option>
+                      <option value="Left Side - Acute (Under 2 Weeks)">Left Side – Acute (Under 2 Weeks)</option>
+                      <option value="Right Side - Chronic (Over 1 Month)">Right Side – Chronic (Over 1 Month)</option>
+                      <option value="Left Side - Chronic (Over 1 Month)">Left Side – Chronic (Over 1 Month)</option>
+                      <option value="Bilateral (Both Sides)">Bilateral (Both Sides)</option>
+                      <option value="Central Spine / Post-Operative">Central Spine / Post-Operative</option>
+                    </select>
+                  </div>
+                </div>
+
+                <!-- Interactive Pain Scale Slider (1-10) -->
+                <div class="mt-4 p-4 rounded-2xl bg-slate-800/60 border border-slate-700/80">
+                  <div class="flex items-center justify-between text-xs font-semibold mb-2">
+                    <span class="text-indigo-200">Pain Severity Level (1 = Minimal, 10 = Severe Emergency):</span>
+                    <span id="painValueBadge" class="px-3 py-1 rounded-full bg-amber-400 text-slate-950 font-extrabold">6 / 10 (Moderate Pain)</span>
+                  </div>
+                  <input type="range" id="ptPainScale" min="1" max="10" value="6" oninput="updatePainBadge(this.value)" class="w-full cursor-pointer" />
+                </div>
+
+                <!-- Additional Case / Sports Match / Referring Physician / Attendant Details -->
+                <div class="grid sm:grid-cols-2 gap-4 mt-4">
+                  <div>
+                    <label class="block text-xs font-semibold text-indigo-200 mb-1.5">Attendant / Guardian / Referring Doctor Name</label>
+                    <input type="text" id="ptGuardian" placeholder="e.g., Attendant name or Referring Surgeon at HMC" class="w-full px-4 py-3 rounded-xl bg-slate-800/90 border border-slate-700 text-white text-sm focus:outline-none focus:border-amber-400" />
+                  </div>
+                  <div>
+                    <label class="block text-xs font-semibold text-indigo-200 mb-1.5">Sports Activity / Match / Mechanism of Injury</label>
+                    <input type="text" id="ptMechanism" placeholder="e.g., Cricket/Football match injury, gym lift, fall, post-surgery" class="w-full px-4 py-3 rounded-xl bg-slate-800/90 border border-slate-700 text-white text-sm focus:outline-none focus:border-amber-400" />
+                  </div>
+                </div>
+
+                <!-- Medical Conditions Checkboxes -->
+                <div class="mt-4">
+                  <label class="block text-xs font-semibold text-indigo-200 mb-2">Other Relevant Medical Information (Check all that apply):</label>
+                  <div class="grid grid-cols-2 sm:grid-cols-3 gap-2.5 text-xs text-slate-200">
+                    <label class="flex items-center gap-2 p-2.5 rounded-xl bg-slate-800/70 border border-slate-700 cursor-pointer">
+                      <input type="checkbox" name="medHistory" value="Recent Surgery or Implants" class="accent-amber-400" />
+                      <span>Recent Surgery / Implants</span>
+                    </label>
+                    <label class="flex items-center gap-2 p-2.5 rounded-xl bg-slate-800/70 border border-slate-700 cursor-pointer">
+                      <input type="checkbox" name="medHistory" value="Hypertension (High BP)" class="accent-amber-400" />
+                      <span>Hypertension (High BP)</span>
+                    </label>
+                    <label class="flex items-center gap-2 p-2.5 rounded-xl bg-slate-800/70 border border-slate-700 cursor-pointer">
+                      <input type="checkbox" name="medHistory" value="Diabetes Mellitus" class="accent-amber-400" />
+                      <span>Diabetes Mellitus</span>
+                    </label>
+                    <label class="flex items-center gap-2 p-2.5 rounded-xl bg-slate-800/70 border border-slate-700 cursor-pointer">
+                      <input type="checkbox" name="medHistory" value="Cardiac or Respiratory Condition" class="accent-amber-400" />
+                      <span>Cardiac / Respiratory Issue</span>
+                    </label>
+                    <label class="flex items-center gap-2 p-2.5 rounded-xl bg-slate-800/70 border border-slate-700 cursor-pointer">
+                      <input type="checkbox" name="medHistory" value="X-Ray or MRI Reports Available" class="accent-amber-400" />
+                      <span>X-Ray / MRI Available</span>
+                    </label>
+                    <label class="flex items-center gap-2 p-2.5 rounded-xl bg-slate-800/70 border border-slate-700 cursor-pointer">
+                      <input type="checkbox" name="medHistory" value="Currently on Medications" class="accent-amber-400" />
+                      <span>Currently on Medications</span>
+                    </label>
+                  </div>
+                </div>
+
+                <!-- Detailed Description of Injuries or Pain -->
+                <div class="mt-4">
+                  <label class="block text-xs font-semibold text-indigo-200 mb-1.5">Complete Details of Injuries, Pain &amp; Medical History *</label>
+                  <textarea id="ptInjuryDetails" required rows="3" placeholder="Describe your pain symptoms, movement limitations, previous surgeries, current medications, or specific recovery goals..." class="w-full px-4 py-3 rounded-xl bg-slate-800/90 border border-slate-700 text-white text-sm focus:outline-none focus:border-amber-400"></textarea>
+                </div>
+              </div>
+
+              <!-- PART 4: PAYMENT PREFERENCE (JAZZCASH & EASYPAISA REMOVED) -->
+              <div>
+                <div class="flex items-center gap-2 pb-2.5 mb-4 border-b border-slate-800">
+                  <span class="w-6 h-6 rounded-full bg-amber-400 text-slate-950 font-bold text-xs flex items-center justify-center">4</span>
+                  <h4 class="font-heading text-lg font-bold text-white">Billing &amp; Payment Preference</h4>
+                </div>
+                <div class="grid sm:grid-cols-2 gap-4">
+                  <div>
+                    <label class="block text-xs font-semibold text-indigo-200 mb-1.5">Preferred Payment Method *</label>
+                    <select id="ptPaymentMethod" class="w-full px-3.5 py-3 rounded-xl bg-slate-800/90 border border-slate-700 text-white text-sm focus:outline-none focus:border-amber-400">
+                      <option value="Cash on Consultation / Home Visit">Cash on Consultation / Home Visit</option>
+                      <option value="Direct Bank / RAAST Transfer">Direct Bank / RAAST Transfer</option>
+                      <option value="In-Clinic Reception Billing">In-Clinic Reception Billing</option>
+                      <option value="Weekly or Monthly Rehab Package">Weekly / Monthly Rehab Package</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label class="block text-xs font-semibold text-indigo-200 mb-1.5">Billing Note / Reference (Optional)</label>
+                    <input type="text" id="ptPaymentRef" placeholder="Any billing note or bank reference" class="w-full px-4 py-3 rounded-xl bg-slate-800/90 border border-slate-700 text-white text-sm focus:outline-none focus:border-amber-400" />
+                  </div>
+                </div>
+              </div>
+
+              <!-- Submit Buttons -->
+              <div class="flex flex-wrap gap-3 pt-2">
+                <button type="submit" class="flex-1 min-w-[240px] py-4 px-6 rounded-2xl bg-amber-400 hover:bg-amber-300 text-slate-950 font-heading font-extrabold text-sm sm:text-base shadow-xl shadow-amber-500/20 hover:-translate-y-0.5 transition flex items-center justify-center gap-2">
+                  <i class="fa-brands fa-whatsapp text-xl"></i> Send Complete Details on WhatsApp
+                </button>
+                <button type="button" onclick="previewAppointmentSlip()" class="py-4 px-5 rounded-2xl bg-indigo-600/40 hover:bg-indigo-600/60 border border-indigo-400/30 text-white font-heading font-bold text-xs sm:text-sm transition flex items-center justify-center gap-2">
+                  <i class="fa-solid fa-eye"></i> Preview / Copy Slip
+                </button>
+                <button type="button" onclick="submitBookingViaEmail()" class="py-4 px-5 rounded-2xl bg-white/10 hover:bg-white/20 text-white font-heading font-bold text-xs sm:text-sm transition flex items-center justify-center gap-2">
+                  <i class="fa-solid fa-envelope"></i> Send via Email
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       FOOTER
+       ===================================================================== -->
+  <footer class="bg-primary-dark text-indigo-200 py-12 border-t border-white/10 text-xs sm:text-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-6">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-amber-400 text-slate-950 flex items-center justify-center font-bold text-lg">
+          <i class="fa-solid fa-user-doctor"></i>
+        </div>
+        <div>
+          <span class="font-heading font-bold text-white text-base block">Dr. Muhammad Adnan — DPT, MSPT (Sports)</span>
+          <span class="text-xs text-indigo-300">Hayatabad Medical Complex (HMC), Peshawar &amp; Islamabad • Pakistan</span>
+        </div>
+      </div>
+      <div class="flex flex-wrap items-center gap-5">
+        <a href="#our-team" class="hover:text-amber-300 transition">Team Profiles</a>
+        <a href="#certificates" class="hover:text-amber-300 transition">Certificates</a>
+        <a href="#gallery" class="hover:text-amber-300 transition">Clinical Gallery</a>
+        <a href="#book" class="hover:text-amber-300 transition">Book Appointment</a>
+        <a href="tel:03019012122" class="text-amber-400 font-bold">0301-9012122</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP ACTION BUTTON -->
+  <a href="https://api.whatsapp.com/send?phone=923019012122&text=Assalam-o-Alaikum%20Dr.%20Muhammad%20Adnan%2C%20I%20would%20like%20to%20book%20a%20physiotherapy%20consultation." target="_blank" class="fixed bottom-6 right-6 z-40 w-14 h-14 rounded-full bg-emerald-500 hover:bg-emerald-400 text-white flex items-center justify-center shadow-2xl hover:scale-110 transition" title="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp text-3xl"></i>
+  </a>
+
+  <!-- =====================================================================
+       MODAL 1: COMPLETE TEAM MEMBER REGISTRATION & CV UPLOAD MODAL
+       ===================================================================== -->
+  <div id="teamModal" class="fixed inset-0 z-50 hidden bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto">
+    <div class="bg-white rounded-3xl max-w-2xl w-full p-6 sm:p-8 shadow-2xl relative my-8 border-2 border-indigo-200">
+      <button onclick="closeTeamModal()" class="absolute top-5 right-5 w-9 h-9 rounded-full bg-indigo-100 hover:bg-indigo-200 text-primary flex items-center justify-center">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <span class="px-3.5 py-1 rounded-full bg-primary-light text-primary text-xs font-bold uppercase">
+        Team Expansion &amp; Profile Registration
+      </span>
+      <h3 class="font-heading text-2xl font-extrabold text-slate-900 mt-2">
+        Add / Apply as New Team Member
+      </h3>
+      <p class="text-xs sm:text-sm text-slate-600 mt-1">
+        Fill out all required professional details and upload your CV below to add a specialist profile to Dr. Muhammad Adnan's expanding rehabilitation team.
+      </p>
+
+      <form id="teamMemberForm" onsubmit="handleTeamMemberSubmit(event)" class="space-y-4 mt-5">
+        <div class="grid sm:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Full Name (with Title) *</label>
+            <input type="text" id="tmName" required placeholder="e.g., Dr. Ayesha Khan, DPT" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:border-indigo-600" />
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Primary Specialization *</label>
+            <input type="text" id="tmSpec" required placeholder="e.g., Sports Rehab / Female & Pediatric PT" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:border-indigo-600" />
+          </div>
+        </div>
+
+        <div class="grid sm:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Highest Educational Qualification *</label>
+            <input type="text" id="tmQual" required placeholder="e.g., MSPT (Sports PT) / DPT" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:border-indigo-600" />
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Professional Experience (Years &amp; Hospitals) *</label>
+            <input type="text" id="tmExp" required placeholder="e.g., 2 Years Clinical Experience at HMC" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:border-indigo-600" />
+          </div>
+        </div>
+
+        <div class="grid sm:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Complete Address &amp; City *</label>
+            <input type="text" id="tmAddress" required placeholder="e.g., Phase 4, Hayatabad, Peshawar, KPK" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:border-indigo-600" />
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Mobile / WhatsApp Number *</label>
+            <input type="tel" id="tmPhone" required placeholder="e.g., 0300-1234567" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:border-indigo-600" />
+          </div>
+        </div>
+
+        <!-- CV Upload & Profile Photo Upload -->
+        <div class="grid sm:grid-cols-2 gap-4 p-4 rounded-2xl bg-indigo-50 border border-indigo-200">
+          <div>
+            <label class="block text-xs font-bold text-primary mb-1">
+              <i class="fa-solid fa-file-arrow-up mr-1"></i> Upload CV (PDF, DOC, DOCX) *
+            </label>
+            <input type="file" id="tmCvFile" required accept=".pdf,.doc,.docx" onchange="previewCvFileName(this)" class="w-full text-xs text-slate-600 file:mr-3 file:py-2 file:px-3 file:rounded-lg file:border-0 file:text-xs file:font-bold file:bg-primary file:text-white hover:file:opacity-90 cursor-pointer" />
+            <div id="cvFileInfo" class="text-[11px] text-emerald-700 font-semibold mt-1 hidden"></div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-primary mb-1">
+              <i class="fa-solid fa-camera mr-1"></i> Profile Photo (Optional)
+            </label>
+            <input type="file" id="tmPhotoFile" accept="image/*" class="w-full text-xs text-slate-600 file:mr-3 file:py-2 file:px-3 file:rounded-lg file:border-0 file:text-xs file:font-bold file:bg-indigo-200 file:text-primary hover:file:bg-indigo-300 cursor-pointer" />
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slate-700 mb-1">Other Relevant Professional Details (Certifications, Languages, Skills, Availability) *</label>
+          <textarea id="tmOtherDetails" required rows="2" placeholder="List international courses, certifications, languages spoken (English/Urdu/Pashto), and clinical skills..." class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:border-indigo-600"></textarea>
+        </div>
+
+        <div class="flex flex-wrap gap-3 pt-2">
+          <button type="submit" class="flex-1 py-3.5 px-5 rounded-xl bg-primary bg-primary-hover text-white font-heading font-bold text-xs sm:text-sm shadow-lg transition flex items-center justify-center gap-2">
+            <i class="fa-solid fa-plus-circle"></i> Add to Team Directory &amp; Send via WhatsApp
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       MODAL 2: ADD / UPLOAD NEW CERTIFICATE MODAL
+       ===================================================================== -->
+  <div id="certModal" class="fixed inset-0 z-50 hidden bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-white rounded-3xl max-w-lg w-full p-6 sm:p-8 shadow-2xl relative border-2 border-indigo-200">
+      <button onclick="closeCertModal()" class="absolute top-5 right-5 w-9 h-9 rounded-full bg-indigo-100 hover:bg-indigo-200 text-primary flex items-center justify-center">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <span class="px-3.5 py-1 rounded-full bg-primary-light text-primary text-xs font-bold uppercase">Add Verified Credential</span>
+      <h3 class="font-heading text-2xl font-extrabold text-slate-900 mt-2">Upload Certificate Picture</h3>
+      <p class="text-xs text-slate-600 mt-1">Select a certificate image from your device to display it immediately in the Certificates Gallery.</p>
+
+      <form onsubmit="handleAddCertificate(event)" class="space-y-4 mt-5">
+        <div>
+          <label class="block text-xs font-bold text-slate-700 mb-1">Certificate Title *</label>
+          <input type="text" id="certTitle" required placeholder="e.g., Medical Neuroscience Specialization" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm" />
+        </div>
+        <div>
+          <label class="block text-xs font-bold text-slate-700 mb-1">Issuing University / Organization *</label>
+          <input type="text" id="certIssuer" required placeholder="e.g., Duke University, USA" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm" />
+        </div>
+        <div>
+          <label class="block text-xs font-bold text-slate-700 mb-1">Year / Credential Tag *</label>
+          <input type="text" id="certYear" required placeholder="e.g., 2025 • Verified Credential" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm" />
+        </div>
+        <div class="p-4 rounded-2xl bg-indigo-50 border border-indigo-200">
+          <label class="block text-xs font-bold text-primary mb-1">Select Certificate Image (.jpeg, .jpg, .png) *</label>
+          <input type="file" id="certImageFile" required accept="image/*" class="w-full text-xs text-slate-600 file:mr-3 file:py-2 file:px-3 file:rounded-lg file:border-0 file:text-xs file:font-bold file:bg-primary file:text-white cursor-pointer" />
+        </div>
+        <button type="submit" class="w-full py-3.5 rounded-xl bg-primary text-white font-heading font-bold text-sm shadow-lg hover:opacity-95 transition">
+          Add Certificate to Gallery
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       MODAL 3: ADD MORE CLINICAL GALLERY PHOTOS MODAL
+       ===================================================================== -->
+  <div id="photoModal" class="fixed inset-0 z-50 hidden bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-white rounded-3xl max-w-lg w-full p-6 sm:p-8 shadow-2xl relative border-2 border-indigo-200">
+      <button onclick="closePhotoModal()" class="absolute top-5 right-5 w-9 h-9 rounded-full bg-indigo-100 hover:bg-indigo-200 text-primary flex items-center justify-center">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <span class="px-3.5 py-1 rounded-full bg-primary-light text-primary text-xs font-bold uppercase">Expand Clinical Portfolio</span>
+      <h3 class="font-heading text-2xl font-extrabold text-slate-900 mt-2">Add New Clinical Picture</h3>
+      <form onsubmit="handleAddGalleryPhoto(event)" class="space-y-4 mt-5">
+        <div>
+          <label class="block text-xs font-bold text-slate-700 mb-1">Category Badge *</label>
+          <input type="text" id="photoTag" required placeholder="e.g., Sports Rehab Lab" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm" />
+        </div>
+        <div>
+          <label class="block text-xs font-bold text-slate-700 mb-1">Photo Title *</label>
+          <input type="text" id="photoTitle" required placeholder="e.g., Post-ACL Functional Assessment" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm" />
+        </div>
+        <div>
+          <label class="block text-xs font-bold text-slate-700 mb-1">Short Description *</label>
+          <input type="text" id="photoDesc" required placeholder="e.g., One-on-one sports rehabilitation session." class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm" />
+        </div>
+        <div class="p-4 rounded-2xl bg-indigo-50 border border-indigo-200">
+          <label class="block text-xs font-bold text-primary mb-1">Select Clinical Image (.jpeg, .jpg, .png) *</label>
+          <input type="file" id="photoInputFile" required accept="image/*" class="w-full text-xs text-slate-600 file:mr-3 file:py-2 file:px-3 file:rounded-lg file:border-0 file:text-xs file:font-bold file:bg-primary file:text-white cursor-pointer" />
+        </div>
+        <button type="submit" class="w-full py-3.5 rounded-xl bg-primary text-white font-heading font-bold text-sm shadow-lg hover:opacity-95 transition">
+          Add Picture to Clinical Gallery
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       MODAL 4: LIGHTBOX VIEWER & APPOINTMENT SLIP PREVIEW MODAL
+       ===================================================================== -->
+  <div id="lightboxModal" class="fixed inset-0 z-50 hidden bg-slate-950/90 backdrop-blur-md flex items-center justify-center p-4">
+    <div class="max-w-4xl w-full bg-slate-900 rounded-3xl overflow-hidden border border-white/15 shadow-2xl relative">
+      <button onclick="closeLightbox()" class="absolute top-4 right-4 z-10 w-10 h-10 rounded-full bg-slate-950/80 text-white hover:bg-amber-400 hover:text-slate-950 flex items-center justify-center transition">
+        <i class="fa-solid fa-xmark text-lg"></i>
+      </button>
+      <img id="lightboxImg" src="" alt="Full View" class="w-full max-h-[75vh] object-contain bg-slate-950" />
+      <div class="p-5 bg-slate-900 text-white">
+        <span id="lightboxTag" class="text-xs font-bold uppercase text-amber-400"></span>
+        <h4 id="lightboxTitle" class="font-heading text-xl font-bold mt-0.5"></h4>
+        <p id="lightboxDesc" class="text-xs text-slate-300 mt-1"></p>
+      </div>
+    </div>
+  </div>
+
+  <div id="slipModal" class="fixed inset-0 z-50 hidden bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-white rounded-3xl max-w-xl w-full p-6 sm:p-8 shadow-2xl relative border-2 border-indigo-200">
+      <button onclick="closeSlipModal()" class="absolute top-5 right-5 w-9 h-9 rounded-full bg-indigo-100 text-primary flex items-center justify-center">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <span class="px-3 py-1 rounded-full bg-primary-light text-primary text-xs font-bold uppercase">Complete Patient Intake Summary</span>
+      <h3 class="font-heading text-2xl font-extrabold text-slate-900 mt-2">Full WhatsApp Appointment Slip</h3>
+      <pre id="slipTextContent" class="mt-4 p-4 rounded-2xl bg-slate-900 text-indigo-100 text-xs whitespace-pre-wrap font-mono max-h-80 overflow-y-auto leading-relaxed"></pre>
+      <div class="mt-5 flex flex-wrap gap-3">
+        <button onclick="copyFullSlip()" class="flex-1 py-3 rounded-xl bg-primary text-white font-heading font-bold text-xs flex items-center justify-center gap-2">
+          <i class="fa-regular fa-copy"></i> Copy Full Details
+        </button>
+        <button onclick="sendSlipToWhatsApp()" class="flex-1 py-3 rounded-xl bg-emerald-500 text-slate-950 font-heading font-bold text-xs flex items-center justify-center gap-2">
+          <i class="fa-brands fa-whatsapp text-base"></i> Open in WhatsApp Now
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       JAVASCRIPT ENGINE
+       ===================================================================== -->
+  <script>
+    /* ---------------------------------------------------------------------
+       0. SMART IMAGE EXTENSION FALLBACK (.jpeg <-> .jpg)
+       Ensures that whether your image files on disk are named .jpeg or .jpg,
+       they always load without broken icons!
+       --------------------------------------------------------------------- */
+    function tryFallbackExt(imgEl) {
+      if (imgEl.dataset.triedFallback === "true") return;
+      imgEl.dataset.triedFallback = "true";
+      const currentSrc = imgEl.getAttribute("src") || "";
+      if (currentSrc.endsWith(".jpeg")) {
+        imgEl.src = currentSrc.replace(/\.jpeg$/, ".jpg");
+      } else if (currentSrc.endsWith(".jpg")) {
+        imgEl.src = currentSrc.replace(/\.jpg$/, ".jpeg");
+      }
+    }
+
+    /* ---------------------------------------------------------------------
+       1. COMPLETE TEAM MEMBER PROFILES DATA (USING .jpeg)
+       --------------------------------------------------------------------- */
+    const defaultTeamMembers = [
+      {
+        name: "Dr. Muhammad Adnan",
+        specialization: "Sports Physical Therapy, Neuro & Multi-System Rehabilitation",
+        experience: "1 Year Intensive Clinical Experience at Hayatabad Medical Complex (HMC) across OPD (20+ daily patients) & 6 Inpatient Wards",
+        qualification: "MSPT – Sports Physical Therapy (Ibadat Intl. University, 2025–Present) • DPT (Iqra National University, Sept 2024)",
+        address: "Hayatabad Medical Complex (HMC), Peshawar, KPK & Ibadat International University, Islamabad",
+        otherDetails: "14 International University Courses (Duke, Johns Hopkins, Michigan, CU Boulder, NYU, Toronto, Cape Town) • Certified Acupuncture & Gua Sha • EMT Trained • Fluent in English, Urdu & Pashto",
+        cvUrl: "MUHAMMAD ADNAN CV new.pdf",
+        cvName: "MUHAMMAD ADNAN CV new.pdf",
+        image: "1000658924.jpeg",
+        status: "active",
+        badge: "Founder & Lead Specialist",
+        phone: "0301-9012122"
+      },
+      {
+        name: "Associate Female & Pediatric Specialist (Open Slot)",
+        specialization: "Women's Health, Post-Op Ortho & Pediatric NDT Rehabilitation",
+        experience: "1–3+ Years Hospital & Home Rehabilitation Experience Required",
+        qualification: "Doctor of Physical Therapy (DPT) / MSPT",
+        address: "Hayatabad & City Sectors, Peshawar, KPK (Clinic & Home Visits)",
+        otherDetails: "Dedicated female patients' home physiotherapy, pediatric cerebral palsy play-based therapy, and family-centered rehabilitation • English, Urdu & Pashto",
+        cvUrl: "",
+        cvName: "Upload CV via Team Portal",
+        image: "1000658937.jpeg",
+        status: "expanding",
+        badge: "Expanding Team Slot",
+        phone: "0301-9012122"
+      },
+      {
+        name: "Associate Musculoskeletal & Neuro PT (Open Slot)",
+        specialization: "Manual Therapy, Stroke Gait Rehab & Mobile Home Physiotherapy",
+        experience: "1–3+ Years Clinical OPD & Inpatient Experience Required",
+        qualification: "Doctor of Physical Therapy (DPT) / MSPT",
+        address: "Peshawar & Islamabad Mobile Rehabilitation Unit",
+        otherDetails: "Specializing in Bobath/PNF neuro-rehab, parallel-bar gait training, electrotherapy (TENS/US/IFT), and geriatric fall prevention • English, Urdu & Pashto",
+        cvUrl: "",
+        cvName: "Upload CV via Team Portal",
+        image: "1000658928.jpeg",
+        status: "expanding",
+        badge: "Position Opening",
+        phone: "0301-9012122"
+      }
+    ];
+
+    let teamMembers = [...defaultTeamMembers];
+
+    function renderTeamProfiles() {
+      const grid = document.getElementById("teamGrid");
+      grid.innerHTML = teamMembers.map((member) => {
+        const isActive = member.status === "active";
+        return `
+          <div class="rounded-3xl bg-white border-2 ${isActive ? 'border-primary shadow-xl' : 'border-indigo-200 border-dashed'} overflow-hidden flex flex-col justify-between card-animate">
+            <div>
+              <div class="relative h-60 bg-slate-900 overflow-hidden">
+                <img src="${member.image}" onerror="tryFallbackExt(this)" alt="${member.name}" class="w-full h-full object-cover object-top ${isActive ? '' : 'grayscale contrast-125 opacity-80'}" />
+                <div class="absolute inset-0 bg-gradient-to-t from-indigo-950/90 via-transparent to-transparent"></div>
+                <div class="absolute top-3 left-3">
+                  <span class="px-3 py-1 rounded-full text-[11px] font-bold uppercase ${isActive ? 'bg-primary text-white' : 'bg-amber-400 text-slate-950'} shadow">
+                    ${member.badge}
+                  </span>
+                </div>
+                <div class="absolute bottom-3 left-4 right-4 text-white">
+                  <h4 class="font-heading text-xl font-extrabold leading-tight">${member.name}</h4>
+                  <p class="text-xs text-amber-300 font-semibold mt-0.5">${member.specialization}</p>
+                </div>
+              </div>
+
+              <div class="p-5 space-y-3 text-xs">
+                <div class="p-3 rounded-xl bg-indigo-50/70 border border-indigo-100">
+                  <span class="font-bold text-primary uppercase block text-[10px]">
+                    <i class="fa-solid fa-graduation-cap mr-1"></i> Highest Educational Qualification
+                  </span>
+                  <span class="text-slate-800 font-semibold mt-0.5 block">${member.qualification}</span>
+                </div>
+
+                <div class="p-3 rounded-xl bg-slate-50 border border-slate-200/70">
+                  <span class="font-bold text-primary uppercase block text-[10px]">
+                    <i class="fa-solid fa-briefcase-medical mr-1"></i> Professional Experience
+                  </span>
+                  <span class="text-slate-700 mt-0.5 block">${member.experience}</span>
+                </div>
+
+                <div class="p-3 rounded-xl bg-slate-50 border border-slate-200/70">
+                  <span class="font-bold text-primary uppercase block text-[10px]">
+                    <i class="fa-solid fa-location-dot mr-1"></i> Complete Address
+                  </span>
+                  <span class="text-slate-700 mt-0.5 block">${member.address}</span>
+                </div>
+
+                <div class="p-3 rounded-xl bg-slate-50 border border-slate-200/70">
+                  <span class="font-bold text-primary uppercase block text-[10px]">
+                    <i class="fa-solid fa-circle-info mr-1"></i> Other Professional Details
+                  </span>
+                  <span class="text-slate-600 mt-0.5 block leading-relaxed">${member.otherDetails}</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="px-5 pb-5 pt-3 border-t border-indigo-100 space-y-2">
+              ${member.cvUrl ? `
+                <a href="${member.cvUrl}" download="${member.cvName}" class="w-full py-2.5 px-3 rounded-xl border border-indigo-300 text-primary hover:bg-primary-light font-bold text-xs flex items-center justify-center gap-1.5 transition">
+                  <i class="fa-solid fa-file-pdf text-red-500"></i> Download CV (${member.cvName})
+                </a>
+              ` : `
+                <button onclick="openTeamModal()" class="w-full py-2.5 px-3 rounded-xl border border-dashed border-indigo-300 text-primary hover:bg-primary-light font-bold text-xs flex items-center justify-center gap-1.5 transition">
+                  <i class="fa-solid fa-file-arrow-up"></i> Upload CV &amp; Apply for This Role
+                </button>
+              `}
+
+              ${isActive ? `
+                <a href="#book" class="w-full py-3 rounded-xl bg-primary bg-primary-hover text-white font-heading font-bold text-xs flex items-center justify-center gap-2 transition shadow-md">
+                  <i class="fa-solid fa-calendar-check"></i> Book Session with ${member.name.split(' ').slice(0, 3).join(' ')}
+                </a>
+              ` : ''}
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    /* ---------------------------------------------------------------------
+       2. VERIFIED CERTIFICATES GALLERY DATA & UPLOADER
+       Tip: When you put certificate images in your folder, you can also replace
+       the `image` filenames below (e.g., "cert-duke.jpeg", "cert-dpt.jpeg").
+       --------------------------------------------------------------------- */
+    let certificatesList = [
+      {
+        title: "Doctor of Physical Therapy (DPT) & MSPT Sports PT",
+        issuer: "Iqra National University, Peshawar & Ibadat International University, Islamabad",
+        year: "2024–Present • Primary Academic Degrees",
+        image: "1000658924.jpeg",
+        badge: "Academic Degree"
+      },
+      {
+        title: "Multi-Department Clinical Rotation Certificate (OPD & 6 Wards)",
+        issuer: "Hayatabad Medical Complex (HMC), Peshawar",
+        year: "2025–2026 • 1 Year Clinical Experience",
+        image: "1000658936.jpeg",
+        badge: "Teaching Hospital"
+      },
+      {
+        title: "Medical Neuroscience & Neuroanatomy Specializations",
+        issuer: "Duke University & University of Michigan, USA",
+        year: "2024–2025 • International Accreditation",
+        image: "1000658928.jpeg",
+        badge: "USA Universities"
+      },
+      {
+        title: "Clinical Acupuncture & Gua Sha Therapy Certifications",
+        issuer: "Niel Asher Education, International",
+        year: "2024–2025 • Certified Practitioner",
+        image: "1000658932.jpeg",
+        badge: "Dual Certified"
+      },
+      {
+        title: "Science of Exercise & EMT Emergency Response",
+        issuer: "University of Colorado Boulder, USA",
+        year: "2024–2025 • Sports & Emergency Care",
+        image: "1000658937.jpeg",
+        badge: "Sports & EMT"
+      },
+      {
+        title: "Epidemiology, Biostatistics & AI Clinical Decision Making",
+        issuer: "Johns Hopkins University (USA) & University of Cape Town",
+        year: "2024–2025 • Research & Data Science",
+        image: "1000658931.jpeg",
+        badge: "Research & AI"
+      }
+    ];
+
+    function renderCertificates() {
+      const grid = document.getElementById("certificatesGrid");
+      grid.innerHTML = certificatesList.map((cert, index) => `
+        <div class="bg-slate-50 rounded-3xl overflow-hidden border-2 border-indigo-100/90 shadow-sm card-animate flex flex-col justify-between">
+          <div>
+            <div class="relative h-52 bg-slate-900 overflow-hidden cursor-pointer group" onclick="openLightbox('${cert.image}', '${cert.badge}', '${cert.title.replace(/'/g, "\\'")}', '${cert.issuer.replace(/'/g, "\\'")}')">
+              <img src="${cert.image}" onerror="tryFallbackExt(this)" alt="${cert.title}" class="w-full h-full object-cover object-top group-hover:scale-105 transition duration-500 opacity-90" />
+              <div class="absolute inset-0 bg-gradient-to-t from-indigo-950/90 via-indigo-950/20 to-transparent"></div>
+              <div class="absolute top-3 left-3">
+                <span class="px-3 py-1 rounded-full bg-amber-400 text-slate-950 font-bold text-[11px] uppercase shadow">
+                  <i class="fa-solid fa-certificate mr-1"></i>${cert.badge}
+                </span>
+              </div>
+              <div class="absolute bottom-3 right-3 w-9 h-9 rounded-xl bg-white/15 backdrop-blur-md text-white flex items-center justify-center group-hover:bg-amber-400 group-hover:text-slate-950 transition">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </div>
+            </div>
+            <div class="p-6">
+              <div class="text-[11px] font-bold text-primary uppercase tracking-wider">${cert.year}</div>
+              <h3 class="font-heading text-lg font-extrabold text-slate-900 mt-1 leading-snug">${cert.title}</h3>
+              <p class="text-xs text-slate-600 mt-1.5"><i class="fa-solid fa-building-columns text-primary mr-1.5"></i>${cert.issuer}</p>
+            </div>
+          </div>
+          <div class="px-6 pb-5 pt-3 border-t border-indigo-100/80 flex items-center justify-between">
+            <button onclick="openLightbox('${cert.image}', '${cert.badge}', '${cert.title.replace(/'/g, "\\'")}', '${cert.issuer.replace(/'/g, "\\'")}')" class="text-xs font-bold text-primary hover:underline flex items-center gap-1.5">
+              <i class="fa-solid fa-expand"></i> View Full Credential
+            </button>
+            <label class="text-[11px] font-semibold text-slate-500 hover:text-primary cursor-pointer flex items-center gap-1" title="Replace this card's photo with your certificate scan">
+              <i class="fa-solid fa-camera"></i> Replace Photo
+              <input type="file" accept="image/*" class="hidden" onchange="replaceCertPhoto(event, ${index})" />
+            </label>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function replaceCertPhoto(event, index) {
+      const file = event.target.files[0];
+      if (!file) return;
+      certificatesList[index].image = URL.createObjectURL(file);
+      renderCertificates();
+    }
+
+    function openCertModal() {
+      document.getElementById("certModal").classList.remove("hidden");
+    }
+    function closeCertModal() {
+      document.getElementById("certModal").classList.add("hidden");
+    }
+    function handleAddCertificate(e) {
+      e.preventDefault();
+      const title = document.getElementById("certTitle").value.trim();
+      const issuer = document.getElementById("certIssuer").value.trim();
+      const year = document.getElementById("certYear").value.trim();
+      const fileInput = document.getElementById("certImageFile");
+      const file = fileInput.files[0];
+      const imageUrl = file ? URL.createObjectURL(file) : "1000658924.jpeg";
+
+      certificatesList.unshift({
+        title,
+        issuer,
+        year,
+        image: imageUrl,
+        badge: "Verified Certificate"
+      });
+      renderCertificates();
+      closeCertModal();
+      e.target.reset();
+    }
+
+    /* ---------------------------------------------------------------------
+       3. CLINICAL ACTION GALLERY (6 .jpeg PHOTOS + LIVE UPLOADER)
+       --------------------------------------------------------------------- */
+    let galleryPhotos = [
+      {
+        image: "1000658924.jpeg",
+        tag: "Biomechanics Lab",
+        title: "Sensor-Guided Knee Telemetry",
+        desc: "Real-time kinematic tracking and range-of-motion analytics."
+      },
+      {
+        image: "1000658928.jpeg",
+        tag: "Neuro & Ortho Mobility",
+        title: "Parallel-Bar Gait Re-Education",
+        desc: "Assisted ambulation, posture correction, and balance retraining."
+      },
+      {
+        image: "1000658936.jpeg",
+        tag: "Strength Prescription",
+        title: "Progressive Resistance Rehab",
+        desc: "Targeted upper-extremity strengthening and motor control."
+      },
+      {
+        image: "1000658937.jpeg",
+        tag: "OPD Assessment",
+        title: "Shoulder & Upper-Limb Evaluation",
+        desc: "Detailed joint play, ROM, and musculoskeletal differential diagnosis."
+      },
+      {
+        image: "1000658932.jpeg",
+        tag: "Manual Therapy",
+        title: "Hands-On Joint Mobilization",
+        desc: "Restoring pain-free articulation and soft-tissue extensibility."
+      },
+      {
+        image: "1000658931.jpeg",
+        tag: "Mobile Home Visits",
+        title: "Comfort-of-Home Rehabilitation",
+        desc: "Dedicated one-on-one sessions for home-bound and senior patients."
+      }
+    ];
+
+    function renderGallery() {
+      const grid = document.getElementById("galleryGrid");
+      grid.innerHTML = galleryPhotos.map(item => `
+        <div onclick="openLightbox('${item.image}', '${item.tag.replace(/'/g, "\\'")}', '${item.title.replace(/'/g, "\\'")}', '${item.desc.replace(/'/g, "\\'")}')" class="group cursor-pointer rounded-3xl overflow-hidden bg-slate-900 border border-indigo-100 shadow-md relative h-80 card-animate">
+          <img src="${item.image}" onerror="tryFallbackExt(this)" alt="${item.title}" class="w-full h-full object-cover object-top group-hover:scale-110 transition duration-700" />
+          <div class="absolute inset-0 bg-gradient-to-t from-indigo-950/90 via-indigo-950/20 to-transparent flex flex-col justify-end p-6">
+            <span class="text-[11px] font-bold uppercase tracking-wider text-amber-400">${item.tag}</span>
+            <h3 class="font-heading text-lg font-bold text-white mt-0.5">${item.title}</h3>
+            <p class="text-xs text-indigo-200 mt-1">${item.desc}</p>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function openPhotoModal() {
+      document.getElementById("photoModal").classList.remove("hidden");
+    }
+    function closePhotoModal() {
+      document.getElementById("photoModal").classList.add("hidden");
+    }
+    function handleAddGalleryPhoto(e) {
+      e.preventDefault();
+      const tag = document.getElementById("photoTag").value.trim();
+      const title = document.getElementById("photoTitle").value.trim();
+      const desc = document.getElementById("photoDesc").value.trim();
+      const file = document.getElementById("photoInputFile").files[0];
+      const imageUrl = file ? URL.createObjectURL(file) : "1000658924.jpeg";
+
+      galleryPhotos.unshift({ image: imageUrl, tag, title, desc });
+      renderGallery();
+      closePhotoModal();
+      e.target.reset();
+    }
+
+    function openLightbox(imgSrc, tag, title, desc) {
+      const imgEl = document.getElementById("lightboxImg");
+      delete imgEl.dataset.triedFallback;
+      imgEl.src = imgSrc;
+      imgEl.onerror = function() { tryFallbackExt(this); };
+      document.getElementById("lightboxTag").textContent = tag;
+      document.getElementById("lightboxTitle").textContent = title;
+      document.getElementById("lightboxDesc").textContent = desc;
+      document.getElementById("lightboxModal").classList.remove("hidden");
+    }
+    function closeLightbox() {
+      document.getElementById("lightboxModal").classList.add("hidden");
+    }
+
+    /* ---------------------------------------------------------------------
+       4. ADD / APPLY AS TEAM MEMBER WITH CV UPLOAD
+       --------------------------------------------------------------------- */
+    function openTeamModal() {
+      document.getElementById("teamModal").classList.remove("hidden");
+    }
+    function closeTeamModal() {
+      document.getElementById("teamModal").classList.add("hidden");
+    }
+    function previewCvFileName(input) {
+      const info = document.getElementById("cvFileInfo");
+      if (input.files && input.files[0]) {
+        const file = input.files[0];
+        const sizeKB = Math.round(file.size / 1024);
+        info.textContent = `Selected CV: ${file.name} (${sizeKB} KB) — Ready`;
+        info.classList.remove("hidden");
+      }
+    }
+
+    function handleTeamMemberSubmit(e) {
+      e.preventDefault();
+      const name = document.getElementById("tmName").value.trim();
+      const spec = document.getElementById("tmSpec").value.trim();
+      const qual = document.getElementById("tmQual").value.trim();
+      const exp = document.getElementById("tmExp").value.trim();
+      const address = document.getElementById("tmAddress").value.trim();
+      const phone = document.getElementById("tmPhone").value.trim();
+      const otherDetails = document.getElementById("tmOtherDetails").value.trim();
+
+      const cvFile = document.getElementById("tmCvFile").files[0];
+      const cvUrl = cvFile ? URL.createObjectURL(cvFile) : "";
+      const cvName = cvFile ? cvFile.name : "Applicant_CV.pdf";
+
+      const photoFile = document.getElementById("tmPhotoFile").files[0];
+      const imageUrl = photoFile ? URL.createObjectURL(photoFile) : "1000658936.jpeg";
+
+      teamMembers.push({
+        name,
+        specialization: spec,
+        experience: exp,
+        qualification: qual,
+        address,
+        otherDetails: `${otherDetails} • Contact: ${phone}`,
+        cvUrl,
+        cvName,
+        image: imageUrl,
+        status: "active",
+        badge: "New Team Member",
+        phone
+      });
+
+      renderTeamProfiles();
+      closeTeamModal();
+
+      const plainText =
+        `Assalam-o-Alaikum Dr. Muhammad Adnan,\n\n` +
+        `*NEW TEAM MEMBER PROFILE & CV SUBMISSION*\n` +
+        `• *Full Name:* ${name}\n` +
+        `• *Specialization:* ${spec}\n` +
+        `• *Highest Qualification:* ${qual}\n` +
+        `• *Professional Experience:* ${exp}\n` +
+        `• *Complete Address:* ${address}\n` +
+        `• *Mobile / WhatsApp:* ${phone}\n` +
+        `• *CV File Attached:* ${cvName}\n` +
+        `• *Other Professional Details:* ${otherDetails}`;
+
+      window.open(`https://api.whatsapp.com/send?phone=923019012122&text=${encodeURIComponent(plainText)}`, "_blank");
+    }
+
+    /* ---------------------------------------------------------------------
+       5. 14 GLOBAL UNIVERSITY COURSES FILTERING
+       --------------------------------------------------------------------- */
+    const courses = [
+      { title: "Medical Neuroscience", inst: "Duke University, USA", year: "2024–25", cat: "neuro-msk", icon: "fa-brain" },
+      { title: "Epidemiology in Public Health", inst: "Johns Hopkins University, USA", year: "2024–25", cat: "research-emt", icon: "fa-virus-covid" },
+      { title: "Musculoskeletal & Integumentary System", inst: "University of Michigan, USA", year: "2024–25", cat: "neuro-msk", icon: "fa-bone" },
+      { title: "Neuroanatomy", inst: "University of Michigan, USA", year: "2024–25", cat: "neuro-msk", icon: "fa-network-wired" },
+      { title: "Science of Exercise", inst: "University of Colorado Boulder, USA", year: "2024–25", cat: "sports-rehab", icon: "fa-person-running" },
+      { title: "Become an EMT (Emergency Response)", inst: "University of Colorado Boulder, USA", year: "2024–25", cat: "research-emt", icon: "fa-truck-medical" },
+      { title: "Engineering Health: Yoga & Physiology", inst: "New York University (NYU), USA", year: "2024–25", cat: "sports-rehab", icon: "fa-heart-pulse" },
+      { title: "Anatomy, Physiology & Kinesiology", inst: "NASM, USA", year: "2024–25", cat: "sports-rehab", icon: "fa-dumbbell" },
+      { title: "Teach English Now! (TESOL)", inst: "Arizona State University, USA", year: "2024–25", cat: "research-emt", icon: "fa-language" },
+      { title: "Clinical Research & Biostatistics", inst: "University of Cape Town, South Africa", year: "2024–25", cat: "research-emt", icon: "fa-chart-pie" },
+      { title: "Managing Your Health: Role of PT & Exercise", inst: "University of Toronto, Canada", year: "2024–25", cat: "sports-rehab", icon: "fa-notes-medical" },
+      { title: "Gua Sha Therapy Certification", inst: "Niel Asher Education, International", year: "2024–25", cat: "sports-rehab", icon: "fa-hand-sparkles" },
+      { title: "Clinical Acupuncture Certification", inst: "Niel Asher Education, International", year: "2024–25", cat: "sports-rehab", icon: "fa-spa" },
+      { title: "Professionalism in Allied Health", inst: "MedCert, International", year: "2024–25", cat: "research-emt", icon: "fa-user-shield" }
+    ];
+
+    function filterCourses(category) {
+      const grid = document.getElementById("coursesGrid");
+      const filtered = category === "all" ? courses : courses.filter(c => c.cat === category);
+
+      document.querySelectorAll(".course-filter-btn").forEach(btn => {
+        if (btn.dataset.filter === category) {
+          btn.className = "course-filter-btn px-4 py-2 rounded-xl bg-amber-400 text-slate-950 font-bold text-xs transition";
+        } else {
+          btn.className = "course-filter-btn px-4 py-2 rounded-xl bg-white/10 hover:bg-white/20 text-white font-semibold text-xs transition";
+        }
+      });
+
+      grid.innerHTML = filtered.map(c => `
+        <div class="p-5 rounded-2xl bg-white/10 border border-white/15 hover:border-amber-400 hover:-translate-y-1 transition duration-300 flex items-start gap-4">
+          <div class="w-10 h-10 rounded-xl bg-amber-400/20 text-amber-300 flex items-center justify-center shrink-0 font-bold">
+            <i class="fa-solid ${c.icon}"></i>
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="text-[11px] font-bold text-amber-300 uppercase">${c.inst}</span>
+              <span class="text-[10px] px-2 py-0.5 rounded bg-white/10 text-indigo-200">${c.year}</span>
+            </div>
+            <h4 class="font-heading font-bold text-base text-white mt-1">${c.title}</h4>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    /* ---------------------------------------------------------------------
+       6. COMPLETE WHATSAPP BOOKING ENGINE (100% URL-SAFE ENCODED)
+       Fixes the truncation bug caused by '&' and '#' in patient inputs!
+       --------------------------------------------------------------------- */
+    function toggleSameAsMobile() {
+      const checked = document.getElementById("sameAsMobile").checked;
+      if (checked) {
+        document.getElementById("ptWhatsapp").value = document.getElementById("ptMobile").value;
+      }
+    }
+
+    function syncWhatsAppIfChecked() {
+      if (document.getElementById("sameAsMobile").checked) {
+        document.getElementById("ptWhatsapp").value = document.getElementById("ptMobile").value;
+      }
+    }
+
+    function syncDayFromDate() {
+      const dateVal = document.getElementById("ptDate").value;
+      if (!dateVal) return;
+      const parts = dateVal.split("-");
+      if (parts.length === 3) {
+        const dateObj = new Date(parts[0], parts[1] - 1, parts[2]);
+        const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+        const dayName = days[dateObj.getDay()];
+        if (dayName) {
+          document.getElementById("ptDay").value = dayName;
+        }
+      }
+    }
+
+    function setAmPm(period) {
+      document.getElementById("ptAmPm").value = period;
+      const btnAM = document.getElementById("btnAM");
+      const btnPM = document.getElementById("btnPM");
+      if (period === "AM") {
+        btnAM.className = "py-2 rounded-lg text-xs font-bold bg-amber-400 text-slate-950 shadow transition";
+        btnPM.className = "py-2 rounded-lg text-xs font-bold text-slate-300 hover:text-white transition";
+      } else {
+        btnPM.className = "py-2 rounded-lg text-xs font-bold bg-amber-400 text-slate-950 shadow transition";
+        btnAM.className = "py-2 rounded-lg text-xs font-bold text-slate-300 hover:text-white transition";
+      }
+    }
+
+    function updatePainBadge(val) {
+      const badge = document.getElementById("painValueBadge");
+      let label = "Moderate Pain";
+      if (val <= 3) label = "Mild Pain";
+      else if (val <= 6) label = "Moderate Pain";
+      else if (val <= 8) label = "Severe Pain";
+      else label = "Extreme / Urgent Pain";
+      badge.textContent = `${val} / 10 (${label})`;
+    }
+
+    function collectBookingData() {
+      const checkedHistory = Array.from(document.querySelectorAll('input[name="medHistory"]:checked')).map(cb => cb.value);
+      return {
+        name: document.getElementById("ptName").value.trim() || "Not Entered",
+        age: document.getElementById("ptAge").value.trim() || "N/A",
+        gender: document.getElementById("ptGender").value,
+        mobile: document.getElementById("ptMobile").value.trim() || "Not Entered",
+        whatsapp: document.getElementById("ptWhatsapp").value.trim() || "Not Entered",
+        city: document.getElementById("ptCity").value,
+        address: document.getElementById("ptAddress").value.trim() || "Not Entered",
+        date: document.getElementById("ptDate").value || "Not Selected",
+        day: document.getElementById("ptDay").value,
+        time: `${document.getElementById("ptHour").value}:${document.getElementById("ptMinute").value} ${document.getElementById("ptAmPm").value}`,
+        sessionType: document.getElementById("ptSessionType").value,
+        bodyArea: document.getElementById("ptBodyArea").value,
+        sideOnset: document.getElementById("ptSideOnset").value,
+        painScale: `${document.getElementById("ptPainScale").value} / 10`,
+        guardian: document.getElementById("ptGuardian").value.trim() || "None",
+        mechanism: document.getElementById("ptMechanism").value.trim() || "Not Specified",
+        medHistory: checkedHistory.length ? checkedHistory.join(", ") : "None Reported",
+        injuryDetails: document.getElementById("ptInjuryDetails").value.trim() || "None Provided",
+        paymentMethod: document.getElementById("ptPaymentMethod").value,
+        paymentRef: document.getElementById("ptPaymentRef").value.trim() || "Standard Billing"
+      };
+    }
+
+    function buildFormattedBookingText(d) {
+      return (
+        `Assalam-o-Alaikum Dr. Muhammad Adnan,\n` +
+        `I would like to book a Physiotherapy Appointment. Here are my complete details:\n\n` +
+        `*1. PATIENT PERSONAL & CONTACT DETAILS*\n` +
+        `• Full Name: ${d.name}\n` +
+        `• Age & Gender: ${d.age} Years / ${d.gender}\n` +
+        `• Mobile Number: ${d.mobile}\n` +
+        `• WhatsApp Number: ${d.whatsapp}\n` +
+        `• City / Region: ${d.city}\n` +
+        `• Complete Address: ${d.address}\n\n` +
+        `*2. APPOINTMENT SCHEDULE*\n` +
+        `• Appointment Date: ${d.date}\n` +
+        `• Preferred Day: ${d.day}\n` +
+        `• Appointment Time: ${d.time}\n` +
+        `• Session Type: ${d.sessionType}\n\n` +
+        `*3. INJURY, PAIN & MEDICAL DETAILS*\n` +
+        `• Affected Body Area: ${d.bodyArea}\n` +
+        `• Side & Onset: ${d.sideOnset}\n` +
+        `• Pain Severity Level: ${d.painScale}\n` +
+        `• Sports / Injury Mechanism: ${d.mechanism}\n` +
+        `• Attendant / Referring Doctor: ${d.guardian}\n` +
+        `• Medical History: ${d.medHistory}\n` +
+        `• Detailed Injury / Pain Notes: ${d.injuryDetails}\n\n` +
+        `*4. BILLING & PAYMENT*\n` +
+        `• Preferred Payment Method: ${d.paymentMethod}\n` +
+        `• Billing Note / Reference: ${d.paymentRef}`
+      );
+    }
+
+    function submitCompleteBooking(e) {
+      e.preventDefault();
+      const d = collectBookingData();
+      const fullPlainText = buildFormattedBookingText(d);
+      const encodedText = encodeURIComponent(fullPlainText);
+      window.open(`https://api.whatsapp.com/send?phone=923019012122&text=${encodedText}`, "_blank");
+    }
+
+    function previewAppointmentSlip() {
+      const d = collectBookingData();
+      document.getElementById("slipTextContent").textContent = buildFormattedBookingText(d);
+      document.getElementById("slipModal").classList.remove("hidden");
+    }
+
+    function closeSlipModal() {
+      document.getElementById("slipModal").classList.add("hidden");
+    }
+
+    function copyFullSlip() {
+      const text = document.getElementById("slipTextContent").textContent;
+      navigator.clipboard.writeText(text);
+      alert("Complete appointment slip copied to clipboard!");
+    }
+
+    function sendSlipToWhatsApp() {
+      const text = document.getElementById("slipTextContent").textContent;
+      window.open(`https://api.whatsapp.com/send?phone=923019012122&text=${encodeURIComponent(text)}`, "_blank");
+    }
+
+    function submitBookingViaEmail() {
+      const d = collectBookingData();
+      if (d.name === "Not Entered" || d.mobile === "Not Entered") {
+        alert("Please enter the Patient's Full Name and Mobile Number first.");
+        return;
+      }
+      const subject = encodeURIComponent(`Physiotherapy Appointment Request - ${d.name} (${d.date} at ${d.time})`);
+      const body = encodeURIComponent(buildFormattedBookingText(d));
+      window.location.href = `mailto:muhammadadnan8910@gmail.com?subject=${subject}&body=${body}`;
+    }
+
+    /* ---------------------------------------------------------------------
+       7. COPY PAYMENT INFO, THEME SWITCHER & SCROLL REVEAL
+       --------------------------------------------------------------------- */
+    function copyPaymentInfo(value, label) {
+      navigator.clipboard.writeText(value);
+      const toast = document.getElementById("copyToast");
+      const toastText = document.getElementById("copyToastText");
+      toastText.textContent = `${label} (${value}) copied to clipboard!`;
+      toast.classList.remove("hidden");
+      setTimeout(() => toast.classList.add("hidden"), 3500);
+    }
+
+    function setTheme(themeName) {
+      if (themeName === "default") {
+        document.documentElement.removeAttribute("data-theme");
+      } else {
+        document.documentElement.setAttribute("data-theme", themeName);
+      }
+    }
+
+    // Mobile Menu Toggle
+    const mobileMenuBtn = document.getElementById("mobileMenuBtn");
+    const mobileMenu = document.getElementById("mobileMenu");
+    mobileMenuBtn.addEventListener("click", () => {
+      mobileMenu.classList.toggle("hidden");
+    });
+    document.querySelectorAll(".mobile-link").forEach(link => {
+      link.addEventListener("click", () => mobileMenu.classList.add("hidden"));
+    });
+
+    // Scroll Reveal IntersectionObserver
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("active");
+        }
+      });
+    }, { threshold: 0.08 });
+
+    document.querySelectorAll(".reveal").forEach(el => observer.observe(el));
+
+    // Initialize Page on Load
+    window.addEventListener("DOMContentLoaded", () => {
+      const today = new Date().toISOString().split("T")[0];
+      const dateInput = document.getElementById("ptDate");
+      if (dateInput) {
+        dateInput.value = today;
+        syncDayFromDate();
+      }
+      renderTeamProfiles();
+      renderCertificates();
+      renderGallery();
+      filterCourses("all");
+    });
+  </script>
+</body>
+</html>
